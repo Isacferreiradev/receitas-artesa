@@ -3690,7 +3690,7 @@
               e.preventDefault();
               openModal();
             } else {
-              console.log("Direcionando ao checkout do Plano Completo por R$ 19,90...");
+              window.location.href = "https://secret21.pay.yampi.com.br/r/II2URWEDDA";
             }
           });
         });
@@ -3704,14 +3704,14 @@
           declineLink.addEventListener("click", (e) => {
             e.preventDefault();
             closeModal();
-            console.log("Direcionando ao checkout do Plano Básico...");
+            window.location.href = "https://secret21.pay.yampi.com.br/r/4ACPK3A20R";
           });
         }
 
         if (acceptBtn) {
           acceptBtn.addEventListener("click", () => {
             closeModal();
-            console.log("Direcionando ao checkout do Plano Completo com Desconto (R$ 14,90)...");
+            window.location.href = "https://secret21.pay.yampi.com.br/r/HUZJ20YIPN";
           });
         }
 
