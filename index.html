@@ -1,0 +1,3792 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>+200 Receitas Profissionais de Sabonetes Artesanais Mais Vendidos</title>
+  
+  <!-- Google Fonts: Apenas Poppins com variações de espessura -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  
+  <style>
+    /* --------------------------------------------------
+       SISTEMA DE CORES E VARIÁVEIS (:root)
+       ESTILO DE ALTA CONVERSÃO AMARELADO (SHOPEE / MERCADO LIVRE / TIKTOK SHOP)
+    ----------------------------------------------------- */
+    :root {
+      --fundo: #FFFDE6;          /* Fundo sutilmente amarelado super quente e limpo */
+      --branco: #FFFFFF;
+      --amarelo: #FFD600;        /* Amarelo vibrante principal (Mercado Livre/Shopee) */
+      --amarelo-escuro: #E5BE00;  /* Amarelo hover */
+      --amarelo-suave: #FFFCE6;   /* Fundo amarelo suave para cards */
+      --verde: #1B8144;          /* Verde quente para preços e botões de compra */
+      --verde-escuro: #125C2F;
+      --charcoal: #2D2A2A;       /* Cinza escuro quente para textos */
+      --preto-puro: #111111;     /* Preto de impacto para títulos e seções */
+      --cinza-muted: #7E7873;
+      --borda: #EFEBE4;
+    }
+
+    /* Reset global */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      font-family: 'Poppins', sans-serif;
+      background-color: var(--fundo);
+      color: var(--charcoal);
+    }
+
+    body {
+      overflow-x: hidden;
+      line-height: 1.5;
+    }
+
+    /* --------------------------------------------------
+       ANIMAÇÕES
+    ----------------------------------------------------- */
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.04); }
+    }
+
+    @keyframes shake {
+      0%, 100% { transform: translateX(0); }
+      25% { transform: translateX(-3px); }
+      75% { transform: translateX(3px); }
+    }
+
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.3; }
+    }
+
+    @keyframes marquee-gallery {
+      from { transform: translateX(0); }
+      to { transform: translateX(-50%); }
+    }
+
+    @keyframes bounce {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-6px); }
+    }
+
+    .animate-pulse-btn {
+      animation: pulse 2s infinite ease-in-out;
+    }
+
+    .animate-shake {
+      animation: shake 2s infinite;
+    }
+
+    .animate-bounce-arrow {
+      animation: bounce 1.2s infinite ease-in-out;
+      display: inline-block;
+    }
+
+    .fade-el {
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 0.6s cubic-bezier(0.16, 1, 0.3, 1), transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    .fade-el.show {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* Container utilitário */
+    .container {
+      width: 100%;
+      max-width: 600px;
+      margin: 0 auto;
+      position: relative;
+    }
+
+    @media (min-width: 768px) {
+      .container {
+        max-width: 768px;
+      }
+    }
+
+    @media (min-width: 1200px) {
+      .container {
+        max-width: 1140px;
+      }
+    }
+
+    /* Estilo padrão para Ícones SVG Inline */
+    .svg-icon {
+      width: 16px;
+      height: 16px;
+      fill: currentColor;
+      display: inline-block;
+      vertical-align: middle;
+      flex-shrink: 0;
+    }
+
+    /* Correção para ícones de linha (stroke-only) que bugavam com preenchimento sólido */
+    svg:has(use[href="#icon-check"]),
+    svg:has(use[href="#icon-lightning"]),
+    svg:has(use[href="#icon-lock"]),
+    svg:has(use[href="#icon-trophy"]),
+    svg:has(use[href="#icon-warning"]),
+    .receive-check-item .svg-icon,
+    .testimonial-verified .svg-icon,
+    .testimonial-badge-result .svg-icon,
+    .hero-selo-item .svg-icon,
+    .plan-feature-item.yes .svg-icon {
+      fill: none !important;
+      stroke: currentColor !important;
+    }
+
+    .svg-vinho { color: var(--amarelo-escuro); }
+    .svg-verde { color: var(--verde); }
+    .svg-amarelo { color: var(--amarelo); }
+    
+    /* Estilo Marca-Texto */
+    .highlight-yellow {
+      background-color: var(--amarelo);
+      color: var(--preto-puro);
+      padding: 2px 8px;
+      border-radius: 4px;
+    }
+
+    /* --------------------------------------------------
+       SEÇÃO 1: FAIXA DE VALIDADE TOPO
+    ----------------------------------------------------- */
+    .header-validity {
+      background-color: var(--amarelo);
+      height: 38px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--preto-puro);
+      font-weight: 800;
+      font-size: 13px;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    /* --------------------------------------------------
+       SEÇÃO 2: HERO (SUPER LIMPA)
+    ----------------------------------------------------- */
+    .hero {
+      padding: 32px 16px 48px;
+      text-align: center;
+      background-color: var(--fundo);
+    }
+
+    .hero-new-headline {
+      font-weight: 800;
+      font-size: clamp(26px, 6.5vw, 48px);
+      line-height: 1.15;
+      color: var(--preto-puro);
+      letter-spacing: -0.02em;
+      margin-bottom: 24px;
+      text-transform: none;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      background-color: var(--charcoal);
+      color: var(--amarelo);
+      font-size: clamp(11px, 2.8vw, 15px);
+      font-weight: 800;
+      padding: 6px 16px;
+      border-radius: 99px;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      box-shadow: 0 4px 12px rgba(45,42,42,0.1);
+      width: fit-content;
+      margin-bottom: 4px;
+    }
+
+    .hero-glow-text {
+      position: relative;
+      display: inline-block;
+      color: var(--preto-puro);
+      z-index: 1;
+    }
+
+    .hero-glow-text::after {
+      content: "";
+      position: absolute;
+      left: -6px;
+      right: -6px;
+      bottom: 2px;
+      height: 38%;
+      background-color: rgba(255, 214, 0, 0.5);
+      z-index: -1;
+      border-radius: 4px;
+      transform: skewX(-6deg);
+    }
+
+    /* Grid Colagem minimalista para a foto */
+    .hero-visual {
+      max-width: 320px;
+      margin: 0 auto 24px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .hero-visual img {
+      width: 100%;
+      height: auto;
+      max-height: 280px;
+      object-fit: contain;
+      filter: drop-shadow(0 12px 28px rgba(0,0,0,0.12));
+      display: block;
+    }
+
+    .hero-description {
+      font-weight: 400;
+      font-size: 15px;
+      color: var(--charcoal);
+      max-width: 460px;
+      margin: 0 auto 24px;
+      line-height: 1.5;
+      padding: 0 8px;
+    }
+
+    /* Botão estilo Pill Amarelo */
+    .btn-pill-amarelo {
+      display: block;
+      width: 100%;
+      max-width: 380px;
+      margin: 0 auto;
+      background-color: var(--amarelo);
+      color: var(--preto-puro);
+      border: none;
+      border-radius: 99px;
+      padding: 16px 28px;
+      font-weight: 800;
+      font-size: 18px;
+      text-transform: uppercase;
+      cursor: pointer;
+      box-shadow: 0 4px 15px rgba(255, 214, 0, 0.35);
+      text-align: center;
+      text-decoration: none;
+      transition: background-color 0.25s ease, transform 0.1s ease;
+    }
+
+    .btn-pill-amarelo:hover {
+      background-color: var(--amarelo-escuro);
+    }
+
+    /* Selos Hero */
+    .hero-selos {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      margin-top: 16px;
+      flex-wrap: wrap;
+    }
+
+    .hero-selo-item {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      font-weight: 600;
+      font-size: 11px;
+      color: var(--cinza-muted);
+    }
+
+    .hero-selo-item .svg-icon {
+      color: var(--verde);
+      width: 12px;
+      height: 12px;
+    }
+
+    /* --------------------------------------------------
+       SEÇÃO 3: GALERIA AUTO-SCROLL
+    ----------------------------------------------------- */
+    .gallery-section {
+      background-color: var(--branco);
+      padding: 40px 0;
+      overflow: hidden;
+      border-top: 1px solid var(--borda);
+      border-bottom: 1px solid var(--borda);
+    }
+
+    .gallery-title {
+      text-align: center;
+      font-weight: 800;
+      font-size: 15px;
+      color: var(--preto-puro);
+      letter-spacing: 0.05em;
+      margin-bottom: 24px;
+      text-transform: uppercase;
+      padding: 0 16px;
+    }
+
+    .gallery-carousel-wrapper {
+      width: 100%;
+      overflow: hidden;
+      position: relative;
+    }
+
+    /* Fading premium edges */
+    .gallery-carousel-wrapper::before,
+    .gallery-carousel-wrapper::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      width: 50px;
+      z-index: 2;
+      pointer-events: none;
+    }
+
+    .gallery-carousel-wrapper::before {
+      left: 0;
+      background: linear-gradient(to right, var(--branco) 0%, transparent 100%);
+    }
+
+    .gallery-carousel-wrapper::after {
+      right: 0;
+      background: linear-gradient(to left, var(--branco) 0%, transparent 100%);
+    }
+
+    .gallery-track {
+      display: flex;
+      width: max-content;
+      gap: 12px;
+      animation: marquee-gallery 26s linear infinite;
+    }
+
+    .gallery-track:hover {
+      animation-play-state: paused;
+    }
+
+    .gallery-card {
+      position: relative;
+      width: 140px;
+      height: 140px;
+      border-radius: 12px;
+      overflow: hidden;
+      border: 1px solid var(--borda);
+      box-shadow: 0 4px 10px rgba(0,0,0,0.03);
+      transition: all 0.25s ease;
+      flex-shrink: 0;
+    }
+
+    @media (min-width: 768px) {
+      .gallery-card {
+        width: 170px;
+        height: 170px;
+      }
+    }
+
+    .gallery-card img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.25s ease;
+    }
+
+    .gallery-card:hover {
+      border-color: var(--amarelo);
+      transform: translateY(-4px);
+      box-shadow: 0 6px 15px rgba(255, 214, 0, 0.20);
+    }
+
+    .gallery-overlay {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: linear-gradient(to top, rgba(45,42,42,0.9) 0%, rgba(45,42,42,0.4) 60%, transparent 100%);
+      padding: 6px;
+      text-align: center;
+    }
+
+    .gallery-tag {
+      font-weight: 700;
+      font-size: 11px;
+      color: var(--branco);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: block;
+    }
+
+    /* --------------------------------------------------
+       SEÇÃO 4: O QUE VOCÊ VAI RECEBER
+    ----------------------------------------------------- */
+    .receive-section {
+      background-color: var(--fundo);
+      padding: 0 0 48px;
+    }
+
+    .receive-title-bar {
+      background-color: var(--amarelo);
+      color: var(--preto-puro);
+      padding: 16px 20px;
+      text-align: center;
+      font-weight: 800;
+      font-size: clamp(16px, 4vw, 24px);
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    }
+
+    .receive-mockup-wrapper {
+      max-width: 320px;
+      margin: 32px auto 20px;
+      padding: 0 16px;
+      text-align: center;
+    }
+
+    .receive-mockup-img {
+      width: 100%;
+      height: auto;
+      max-height: 280px;
+      object-fit: contain;
+      filter: drop-shadow(0 12px 24px rgba(0,0,0,0.12));
+    }
+
+    /* Botão Acesso Imediato Verde */
+    .btn-acesso-imediato {
+      display: inline-block;
+      background-color: var(--verde);
+      color: var(--branco);
+      border-radius: 99px;
+      padding: 10px 28px;
+      font-weight: 800;
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-top: 16px;
+      box-shadow: 0 4px 10px rgba(27, 129, 68, 0.3);
+      text-decoration: none;
+      transition: background-color 0.25s ease;
+    }
+
+    .btn-acesso-imediato:hover {
+      background-color: var(--verde-escuro);
+    }
+
+    /* Lista de Itens */
+    .receive-cards-list {
+      max-width: 460px;
+      margin: 32px auto 0;
+      padding: 0 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .receive-card {
+      background-color: var(--branco);
+      border-radius: 14px;
+      padding: 24px 20px;
+      border: 1px solid var(--borda);
+      box-shadow: 0 4px 15px rgba(45,42,42,0.03);
+    }
+
+    .receive-card-badge {
+      display: inline-block;
+      background-color: var(--amarelo);
+      color: var(--preto-puro);
+      font-weight: 800;
+      font-size: 10px;
+      padding: 4px 12px;
+      border-radius: 99px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 10px;
+    }
+
+    .receive-card-img {
+      width: 100%;
+      max-width: 140px;
+      height: auto;
+      border-radius: 6px;
+      margin: 4px 0 16px;
+      display: block;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+      object-fit: contain;
+    }
+
+    .receive-card-title {
+      font-weight: 800;
+      font-size: 16px;
+      color: var(--charcoal);
+      line-height: 1.3;
+      margin-bottom: 8px;
+    }
+
+    .receive-card-desc {
+      font-weight: 400;
+      font-size: 13.5px;
+      color: var(--cinza-muted);
+      line-height: 1.5;
+      margin-bottom: 12px;
+    }
+
+    .receive-checklist {
+      border-top: 1px solid var(--borda);
+      padding-top: 12px;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 6px;
+    }
+
+    @media (min-width: 480px) {
+      .receive-checklist {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    .receive-check-item {
+      font-weight: 600;
+      font-size: 12.5px;
+      color: var(--charcoal);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .receive-check-item .svg-icon {
+      color: var(--verde);
+      width: 14px;
+      height: 14px;
+    }
+
+    /* --------------------------------------------------
+       SEÇÃO 5: IDEAL PARA VOCÊ
+    ----------------------------------------------------- */
+    .ideal-section {
+      background-color: var(--branco);
+      padding: 48px 16px;
+      border-top: 1px solid var(--borda);
+      border-bottom: 1px solid var(--borda);
+    }
+
+    .ideal-title {
+      text-align: center;
+      font-weight: 800;
+      font-size: clamp(20px, 5.5vw, 30px);
+      color: var(--charcoal);
+      line-height: 1.2;
+      margin-bottom: 32px;
+    }
+
+    .ideal-title span {
+      color: var(--preto-puro);
+      background-color: var(--amarelo);
+      padding: 2px 8px;
+      border-radius: 4px;
+    }
+
+    .ideal-list {
+      max-width: 460px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .ideal-card-item {
+      background-color: var(--fundo);
+      border-radius: 8px;
+      padding: 14px 16px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      border: 1px solid var(--borda);
+      transition: transform 0.25s ease;
+    }
+
+    .ideal-card-item:hover {
+      transform: translateX(4px);
+    }
+
+    .ideal-check-box {
+      width: 22px;
+      height: 22px;
+      border-radius: 4px;
+      background-color: var(--branco);
+      border: 1px solid var(--borda);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--verde);
+      flex-shrink: 0;
+    }
+
+    .ideal-check-box .svg-icon {
+      width: 14px;
+      height: 14px;
+    }
+
+    .ideal-card-text {
+      font-weight: 600;
+      font-size: 13px;
+      color: var(--charcoal);
+      line-height: 1.4;
+    }
+
+    /* --------------------------------------------------
+       SEÇÃO 6: BÔNUS EXCLUSIVOS
+    ----------------------------------------------------- */
+    .bonus-section {
+      background-color: var(--fundo);
+      padding: 48px 16px;
+    }
+
+    .bonus-pre {
+      text-align: center;
+      font-weight: 800;
+      font-size: 14px;
+      color: var(--charcoal);
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      margin-bottom: 4px;
+    }
+
+    .bonus-main-title {
+      text-align: center;
+      font-weight: 800;
+      font-size: clamp(24px, 6vw, 36px);
+      color: var(--preto-puro);
+      margin-bottom: 24px;
+    }
+
+    .bonus-grid {
+      max-width: 460px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    @media (min-width: 992px) {
+      .bonus-grid {
+        max-width: 1000px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+      }
+    }
+
+    .bonus-card {
+      background-color: var(--branco);
+      border-radius: 12px;
+      overflow: hidden;
+      border: 1px solid var(--borda);
+      box-shadow: 0 4px 15px rgba(45,42,42,0.03);
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      transition: transform 0.25s ease, box-shadow 0.25s ease;
+    }
+
+    .bonus-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(45,42,42,0.06);
+    }
+
+    .bonus-card-header {
+      background-color: var(--amarelo);
+      color: var(--preto-puro);
+      padding: 10px 16px;
+      font-weight: 800;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid var(--borda);
+    }
+
+    .bonus-card-body {
+      padding: 20px 16px;
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .bonus-card-top-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 8px;
+    }
+
+    .bonus-card-title {
+      font-weight: 800;
+      font-size: 14.5px;
+      color: var(--preto-puro);
+      line-height: 1.3;
+      margin-right: 8px;
+    }
+
+    .bonus-card-price-info {
+      text-align: right;
+      flex-shrink: 0;
+    }
+
+    .bonus-price-old {
+      font-weight: 500;
+      font-size: 10px;
+      color: var(--cinza-muted);
+      text-decoration: line-through;
+      display: block;
+    }
+
+    .bonus-price-free {
+      font-weight: 800;
+      font-size: 12px;
+      color: var(--verde);
+    }
+
+    .bonus-card-desc {
+      font-weight: 400;
+      font-size: 13px;
+      color: var(--cinza-muted);
+      line-height: 1.5;
+    }
+
+    /* Box Totalizadora de Bônus */
+    .bonus-total-card {
+      max-width: 380px;
+      margin: 32px auto 0;
+      background-color: var(--amarelo-suave);
+      border: 2px dashed var(--amarelo);
+      border-radius: 12px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 4px 15px rgba(45,42,42,0.02);
+    }
+
+    .bonus-total-label {
+      font-weight: 800;
+      font-size: 13px;
+      color: var(--charcoal);
+      text-transform: uppercase;
+    }
+
+    .bonus-total-value {
+      font-weight: 800;
+      font-size: 32px;
+      color: var(--verde);
+      line-height: 1.1;
+      margin: 2px 0 6px;
+    }
+
+    .bonus-total-footer {
+      font-weight: 800;
+      font-size: 12px;
+      color: var(--amarelo);
+      background-color: var(--preto-puro);
+      display: inline-block;
+      padding: 6px 18px;
+      border-radius: 99px;
+      border: none;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    }
+
+    /* --------------------------------------------------
+       SEÇÃO 7: ESCOLHA O MELHOR PLANO (PLANOS)
+    ----------------------------------------------------- */
+    .pricing-section {
+      background-color: var(--branco);
+      padding: 48px 16px;
+      border-top: 1px solid var(--borda);
+    }
+
+    .pricing-title {
+      text-align: center;
+      font-weight: 800;
+      font-size: clamp(24px, 6vw, 36px);
+      color: var(--preto-puro);
+      margin-bottom: 24px;
+    }
+
+    .pricing-title span {
+      background-color: var(--amarelo);
+      color: var(--preto-puro);
+      padding: 2px 8px;
+      border-radius: 4px;
+    }
+
+    /* Countdown Timer nos Planos */
+    .pricing-countdown-block {
+      text-align: center;
+      margin-bottom: 32px;
+    }
+
+    .pricing-timer-label {
+      font-weight: 800;
+      font-size: 13px;
+      color: var(--charcoal);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 10px;
+    }
+
+    .pricing-timer-container {
+      display: inline-flex;
+      gap: 6px;
+      align-items: center;
+    }
+
+    .pricing-timer-box {
+      background-color: var(--preto-puro);
+      color: var(--amarelo);
+      font-weight: 800;
+      font-size: 26px;
+      border-radius: 6px;
+      padding: 6px 12px;
+      min-width: 48px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .pricing-timer-divider {
+      font-weight: 800;
+      font-size: 20px;
+      color: var(--preto-puro);
+      animation: blink 1.2s infinite;
+    }
+
+    /* Grid Planos */
+    .pricing-grid {
+      max-width: 440px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+
+    @media (min-width: 768px) {
+      .pricing-grid {
+        max-width: 800px;
+        flex-direction: row;
+        align-items: stretch;
+      }
+    }
+
+    /* Plano Básico Card */
+    .plan-card-basic {
+      background-color: var(--branco);
+      border: 1px solid var(--borda);
+      border-radius: 14px;
+      padding: 32px 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      flex: 1;
+      box-shadow: 0 4px 15px rgba(45,42,42,0.03);
+      transition: transform 0.25s ease;
+    }
+
+    .plan-card-basic:hover {
+      transform: translateY(-2px);
+    }
+
+    .plan-card-complete {
+      background-color: var(--branco);
+      border: 3px solid var(--amarelo);
+      border-radius: 14px;
+      padding: 36px 20px 28px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      flex: 1;
+      position: relative;
+      box-shadow: 0 8px 24px rgba(255, 214, 0, 0.12);
+      transition: transform 0.25s ease, box-shadow 0.25s ease;
+    }
+
+    .plan-card-complete:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 12px 30px rgba(255, 214, 0, 0.18);
+    }
+
+    .plan-card-complete::before {
+      content: "🔥 MAIS VENDIDO";
+      position: absolute;
+      top: -16px;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: var(--amarelo);
+      color: var(--preto-puro);
+      font-weight: 800;
+      font-size: 11px;
+      padding: 6px 20px;
+      border: none;
+      border-radius: 99px;
+      white-space: nowrap;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      letter-spacing: 0.05em;
+    }
+
+    .plan-alert-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background-color: var(--amarelo-suave);
+      border: 1px solid var(--amarelo);
+      color: var(--preto-puro);
+      font-weight: 700;
+      font-size: 10px;
+      text-transform: uppercase;
+      padding: 4px 12px;
+      border-radius: 4px;
+      margin-bottom: 16px;
+      letter-spacing: 0.02em;
+    }
+
+    .plan-alert-badge .svg-icon {
+      width: 12px;
+      height: 12px;
+    }
+
+    .plan-social-badge {
+      font-weight: 700;
+      font-size: 11px;
+      color: var(--verde);
+      margin-bottom: 12px;
+      display: block;
+      text-align: center;
+    }
+
+    .plan-title {
+      font-weight: 800;
+      font-size: 20px;
+      color: var(--preto-puro);
+      margin-bottom: 16px;
+    }
+
+    .plan-title-complete {
+      font-weight: 800;
+      font-size: 22px;
+      color: var(--preto-puro);
+      margin-bottom: 16px;
+    }
+
+    .plan-feature-list {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      margin-bottom: 24px;
+      border-bottom: 1px solid var(--borda);
+      padding-bottom: 16px;
+    }
+
+    .plan-feature-item {
+      font-weight: 600;
+      font-size: 13px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .plan-feature-item.yes {
+      color: var(--charcoal);
+    }
+
+    .plan-feature-item.yes .svg-icon {
+      color: var(--verde);
+      width: 14px;
+      height: 14px;
+    }
+
+    .plan-feature-item.no {
+      color: var(--cinza-muted);
+      opacity: 0.6;
+    }
+
+    .plan-feature-item.no .svg-icon {
+      color: var(--cinza-muted);
+      width: 14px;
+      height: 14px;
+    }
+
+    /* Bloco do Preço */
+    .plan-price-old {
+      font-weight: 500;
+      font-size: 13px;
+      color: var(--cinza-muted);
+      text-decoration: line-through;
+      display: block;
+    }
+
+    .plan-price-main {
+      font-weight: 800;
+      font-size: clamp(38px, 9vw, 54px);
+      color: var(--verde);
+      line-height: 1;
+      margin: 2px 0 6px;
+    }
+
+    .plan-price-desc {
+      font-weight: 600;
+      font-size: 12px;
+      color: var(--cinza-muted);
+      margin-bottom: 16px;
+      display: block;
+    }
+
+    /* Botão de Compra Verde */
+    .btn-plan-buy {
+      display: block;
+      width: 100%;
+      background-color: var(--verde);
+      color: var(--branco);
+      border: none;
+      border-radius: 99px;
+      padding: 14px 20px;
+      font-weight: 800;
+      font-size: 16px;
+      text-transform: uppercase;
+      cursor: pointer;
+      text-align: center;
+      text-decoration: none;
+      box-shadow: 0 4px 12px rgba(27, 129, 68, 0.3);
+      transition: background-color 0.25s ease, transform 0.1s ease;
+    }
+
+    .btn-plan-buy:hover {
+      background-color: var(--verde-escuro);
+    }
+
+    .plan-buy-subtext {
+      font-weight: 600;
+      font-size: 10.5px;
+      color: var(--cinza-muted);
+      margin-top: 6px;
+      display: block;
+      text-align: center;
+    }
+
+    /* Plano Completo Destaque de Preço Especial */
+    .plan-price-badge-save {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background-color: var(--amarelo);
+      color: var(--preto-puro);
+      border: none;
+      font-weight: 700;
+      font-size: 11px;
+      padding: 4px 12px;
+      border-radius: 4px;
+      margin-bottom: 12px;
+    }
+
+    /* Rodapé dos Planos */
+    .pricing-footer {
+      text-align: center;
+      margin-top: 32px;
+    }
+
+    .pricing-footer-tag {
+      font-weight: 800;
+      font-size: 12px;
+      color: var(--cinza-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 12px;
+    }
+
+    .payment-icons-row {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      align-items: center;
+      opacity: 0.85;
+    }
+
+    .payment-icon-svg {
+      height: 22px;
+      display: block;
+    }
+
+    /* --------------------------------------------------
+       SEÇÃO 8: DEPOIMENTOS
+    ----------------------------------------------------- */
+    .testimonials-section {
+      background-color: var(--fundo);
+      padding: 48px 16px;
+      border-top: 1px solid var(--borda);
+    }
+
+    .testimonials-header {
+      text-align: center;
+      margin-bottom: 32px;
+    }
+
+    .testimonials-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background-color: var(--amarelo);
+      color: var(--preto-puro);
+      border: none;
+      font-weight: 800;
+      font-size: 12px;
+      padding: 6px 16px;
+      border-radius: 99px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .testimonials-badge .svg-icon {
+      width: 14px;
+      height: 14px;
+      color: var(--preto-puro);
+    }
+
+    .testimonials-title {
+      font-weight: 800;
+      font-size: clamp(22px, 5.5vw, 32px);
+      color: var(--preto-puro);
+      margin-top: 10px;
+    }
+
+    .testimonials-grid {
+      max-width: 460px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    @media (min-width: 992px) {
+      .testimonials-grid {
+        max-width: 1000px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+      }
+    }
+
+    .testimonial-card {
+      background-color: var(--branco);
+      border-radius: 14px;
+      padding: 24px 20px;
+      border: 1px solid var(--borda);
+      box-shadow: 0 4px 15px rgba(45,42,42,0.03);
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: transform 0.25s ease;
+    }
+
+    .testimonial-card:hover {
+      transform: translateY(-2px);
+    }
+
+    .testimonial-verified {
+      position: absolute;
+      top: 16px;
+      right: 16px;
+      background-color: var(--verde);
+      color: var(--branco);
+      font-weight: 800;
+      font-size: 8.5px;
+      padding: 3px 8px;
+      border-radius: 4px;
+      letter-spacing: 0.02em;
+      border: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      white-space: nowrap;
+    }
+
+    .testimonial-verified .svg-icon {
+      width: 9px;
+      height: 9px;
+      color: var(--branco);
+    }
+
+    .testimonial-user {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 12px;
+      padding-right: 80px; /* Evita colisões do nome/metadata com o selo VERIFICADA absoluto no mobile */
+    }
+
+    .testimonial-avatar {
+      background-color: var(--amarelo-suave);
+      color: var(--charcoal);
+      border: 1px solid var(--amarelo);
+      font-weight: 800;
+      font-size: 16px;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .testimonial-user-name {
+      font-weight: 800;
+      font-size: 13.5px;
+      color: var(--preto-puro);
+      line-height: 1.2;
+    }
+
+    .testimonial-user-meta {
+      font-weight: 500;
+      font-size: 10.5px;
+      color: var(--cinza-muted);
+      display: block;
+    }
+
+    .testimonial-stars {
+      display: flex;
+      gap: 2px;
+      color: var(--amarelo-escuro);
+      margin-bottom: 10px;
+    }
+
+    .testimonial-stars .svg-icon {
+      width: 14px;
+      height: 14px;
+    }
+
+    .testimonial-text {
+      font-weight: 400;
+      font-size: 13.5px;
+      color: var(--charcoal);
+      line-height: 1.6;
+      font-style: italic;
+      margin-bottom: 16px;
+    }
+
+    .testimonial-badge-result {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      align-self: flex-start;
+      background-color: var(--amarelo-suave);
+      color: var(--preto-puro);
+      font-weight: 700;
+      font-size: 11px;
+      padding: 4px 12px;
+      border-radius: 99px;
+      border: 1px solid var(--amarelo);
+    }
+
+    .testimonial-badge-result .svg-icon {
+      width: 12px;
+      height: 12px;
+      color: var(--verde);
+    }
+
+    /* --------------------------------------------------
+       SEÇÃO 9: NÚMEROS DE PROVA
+    ----------------------------------------------------- */
+    .proof-numbers-section {
+      background-color: var(--preto-puro);
+      padding: 32px 16px;
+      color: var(--branco);
+      border-top: none;
+      border-bottom: none;
+    }
+
+    .proof-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+      max-width: 460px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    @media (min-width: 768px) {
+      .proof-grid {
+        max-width: 800px;
+      }
+    }
+
+    .proof-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .proof-number {
+      font-weight: 800;
+      font-size: clamp(24px, 6.5vw, 44px);
+      color: var(--amarelo);
+      line-height: 1.1;
+      margin-bottom: 2px;
+    }
+
+    .proof-label {
+      font-weight: 800;
+      font-size: 10.5px;
+      text-transform: uppercase;
+      line-height: 1.3;
+      color: rgba(255,255,255,0.7);
+    }
+
+    /* --------------------------------------------------
+       SEÇÃO 10: GARANTIA
+    ----------------------------------------------------- */
+    .guarantee-section {
+      background-color: var(--branco);
+      padding: 48px 16px;
+      border-bottom: 1px solid var(--borda);
+    }
+
+    .guarantee-card {
+      background-color: var(--amarelo-suave);
+      border: 2px dashed var(--amarelo);
+      border-radius: 14px;
+      padding: 32px 24px;
+      text-align: center;
+      max-width: 440px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      box-shadow: 0 4px 15px rgba(45,42,42,0.03);
+    }
+
+    .guarantee-icon-wrapper {
+      color: var(--amarelo-escuro);
+      margin-bottom: 16px;
+    }
+
+    .guarantee-icon-wrapper .svg-icon {
+      width: 48px;
+      height: 48px;
+    }
+
+    .guarantee-title {
+      font-weight: 800;
+      font-size: 20px;
+      color: var(--preto-puro);
+      text-transform: uppercase;
+      margin-bottom: 4px;
+    }
+
+    .guarantee-subtitle {
+      font-weight: 800;
+      font-size: 13px;
+      color: var(--verde);
+      letter-spacing: 0.05em;
+      margin-bottom: 12px;
+    }
+
+    .guarantee-text {
+      font-weight: 400;
+      font-size: 13.5px;
+      color: var(--cinza-muted);
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+
+    .btn-guarantee-buy {
+      display: inline-block;
+      background-color: var(--amarelo);
+      color: var(--preto-puro);
+      border: none;
+      border-radius: 99px;
+      padding: 12px 32px;
+      font-weight: 800;
+      font-size: 14px;
+      text-transform: uppercase;
+      text-decoration: none;
+      box-shadow: 0 4px 12 rgba(255, 214, 0, 0.25);
+      transition: background-color 0.25s ease, transform 0.1s ease;
+    }
+
+    .btn-guarantee-buy:hover {
+      background-color: var(--amarelo-escuro);
+    }
+
+    /* --------------------------------------------------
+       SEÇÃO 11: FAQ
+    ----------------------------------------------------- */
+    .faq-section {
+      background-color: var(--fundo);
+      padding: 48px 16px;
+    }
+
+    .faq-wrapper {
+      max-width: 460px;
+      margin: 0 auto;
+    }
+
+    .faq-title {
+      font-weight: 800;
+      font-size: clamp(22px, 6vw, 32px);
+      color: var(--preto-puro);
+      text-align: center;
+      margin-bottom: 32px;
+    }
+
+    .accordion-item {
+      background-color: var(--branco);
+      border-radius: 10px;
+      margin-bottom: 8px;
+      overflow: hidden;
+      border: 1px solid var(--borda);
+      box-shadow: 0 2px 8px rgba(45,42,42,0.01);
+      transition: border-color 0.2s ease;
+    }
+
+    .accordion-item:hover {
+      border-color: var(--amarelo);
+    }
+
+    .accordion-trigger {
+      width: 100%;
+      background: none;
+      border: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 16px 20px;
+      font-weight: 700;
+      font-size: 13.5px;
+      color: var(--preto-puro);
+      cursor: pointer;
+      text-align: left;
+      transition: color 0.25s ease;
+    }
+
+    .accordion-trigger:hover {
+      color: var(--amarelo-escuro);
+    }
+
+    .accordion-icon {
+      font-weight: 800;
+      font-size: 18px;
+      color: var(--amarelo-escuro);
+      line-height: 1;
+      transition: transform 0.3s ease;
+      margin-left: 12px;
+      flex-shrink: 0;
+    }
+
+    .accordion-content {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.3s cubic-bezier(0.16, 1, 0.3, 1), padding 0.3s ease;
+      padding: 0 20px;
+    }
+
+    .accordion-text {
+      font-weight: 400;
+      font-size: 13.5px;
+      color: var(--cinza-muted);
+      line-height: 1.55;
+      padding-bottom: 16px;
+    }
+
+    .accordion-item.active .accordion-icon {
+      transform: rotate(45deg);
+    }
+
+    /* --------------------------------------------------
+       SEÇÃO 12: CTA FINAL
+    ----------------------------------------------------- */
+    .final-cta-section {
+      background-color: var(--preto-puro);
+      padding: 48px 16px;
+      text-align: center;
+      color: var(--branco);
+      border-top: 4px solid var(--amarelo);
+    }
+
+    .final-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background-color: var(--amarelo);
+      color: var(--preto-puro);
+      border: none;
+      box-shadow: none;
+      font-weight: 800;
+      font-size: 11px;
+      padding: 6px 14px;
+      border-radius: 4px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .final-title {
+      font-weight: 900;
+      font-size: clamp(22px, 6vw, 36px);
+      color: var(--branco);
+      margin-top: 12px;
+      line-height: 1.1;
+    }
+
+    .final-subtitle {
+      font-weight: 500;
+      font-size: 14.5px;
+      color: rgba(255,255,255,0.85);
+      max-width: 440px;
+      margin: 8px auto 24px;
+      line-height: 1.4;
+    }
+
+    .final-price-box {
+      margin-bottom: 20px;
+    }
+
+    .final-price-value {
+      font-weight: 900;
+      font-size: clamp(42px, 8.5vw, 56px);
+      color: var(--verde);
+      line-height: 1;
+    }
+
+    .final-price-desc {
+      font-weight: 700;
+      font-size: 12.5px;
+      color: rgba(255,255,255,0.6);
+      margin-top: 4px;
+    }
+
+    .footer-legal {
+      margin-top: 48px;
+      border-top: 1px solid rgba(255,255,255,0.15);
+      padding-top: 24px;
+      font-size: 10.5px;
+      color: #888888;
+      line-height: 1.6;
+    }
+
+    /* --- ESTILOS EXTRAS DE REORGANIZAÇÃO (AMARELO E CHARCOAL PREMIUM) --- */
+
+    /* Nova Seção: Por que Escolher */
+    .choose-section {
+      background-color: var(--branco);
+      padding: 64px 16px;
+      border-top: 1px solid var(--borda);
+    }
+
+    .choose-title {
+      text-align: center;
+      font-weight: 800;
+      font-size: clamp(24px, 6vw, 36px);
+      color: var(--preto-puro);
+      margin-bottom: 40px;
+    }
+
+    .choose-title span {
+      color: var(--amarelo-escuro);
+    }
+
+    .choose-grid {
+      max-width: 1000px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 24px;
+    }
+
+    @media (min-width: 768px) {
+      .choose-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+
+    @media (min-width: 992px) {
+      .choose-grid { grid-template-columns: repeat(3, 1fr); }
+    }
+
+    .choose-card {
+      background-color: var(--branco);
+      border: 1px solid var(--borda);
+      border-radius: 16px;
+      padding: 32px 24px;
+      text-align: center;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.02);
+      transition: transform 0.25s ease, box-shadow 0.25s ease;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .choose-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06);
+    }
+
+    .choose-icon-wrapper {
+      width: 70px;
+      height: 70px;
+      background-color: var(--amarelo-suave);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 16px;
+    }
+
+    .choose-icon-wrapper svg {
+      width: 32px;
+      height: 32px;
+      fill: var(--preto-puro);
+    }
+
+    .choose-card-title {
+      font-weight: 800;
+      font-size: 17px;
+      color: var(--preto-puro);
+      margin-bottom: 8px;
+      line-height: 1.2;
+    }
+
+    .choose-card-desc {
+      font-size: 13.5px;
+      color: var(--cinza-muted);
+      line-height: 1.5;
+      font-weight: 500;
+    }
+
+    /* Faixa de CTA Amarela */
+    .choose-cta-bar {
+      background-color: var(--amarelo-suave);
+      padding: 32px 16px;
+      text-align: center;
+      border-top: 1px solid rgba(0,0,0,0.04);
+      border-bottom: 1px solid rgba(0,0,0,0.04);
+    }
+
+    .btn-choose-cta {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      background-color: var(--amarelo);
+      color: var(--preto-puro);
+      font-weight: 800;
+      font-size: clamp(14px, 4vw, 17px);
+      padding: 14px 40px;
+      border-radius: 99px;
+      text-decoration: none;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      border: 1px solid rgba(0, 0, 0, 0.05);
+    }
+
+    .btn-choose-cta:hover {
+      transform: scale(1.03);
+      box-shadow: 0 8px 25px rgba(0,0,0,0.12);
+      background-color: var(--amarelo-escuro);
+    }
+
+    /* Emoji Check na Seção Ideal */
+    .ideal-emoji-check {
+      font-size: 22px;
+      margin-right: 14px;
+      flex-shrink: 0;
+      display: inline-flex;
+      align-items: center;
+    }
+
+    /* Capas de E-Book em Imagens (Bonus e Planos) */
+    .bonus-cover-wrapper {
+      background-color: var(--amarelo-suave);
+      border-bottom: 1px solid var(--borda);
+      padding: 16px;
+      height: 180px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .bonus-cover-img {
+      max-width: 100%;
+      height: auto;
+      max-height: 150px;
+      object-fit: contain;
+      filter: drop-shadow(0 8px 16px rgba(0,0,0,0.12));
+      transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+      display: block;
+      margin: 0 auto;
+    }
+
+    .bonus-card:hover .bonus-cover-img {
+      transform: translateY(-6px) scale(1.04);
+    }
+
+    .book-3d {
+      width: 105px;
+      height: 145px;
+      position: relative;
+      transform-style: preserve-3d;
+      transform: rotateY(-18deg) rotateX(4deg);
+      transition: transform 0.5s ease;
+      box-shadow: 6px 10px 18px rgba(0, 0, 0, 0.12);
+    }
+
+    .book-3d:hover {
+      transform: rotateY(-4deg) rotateX(0deg);
+    }
+
+    .book-3d-front {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(135deg, var(--charcoal) 0%, #111111 100%);
+      border-radius: 2px 6px 6px 2px;
+      color: var(--amarelo);
+      padding: 12px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      box-sizing: border-box;
+      border-left: 3px solid var(--amarelo);
+      z-index: 2;
+    }
+
+    .book-3d-front .book-type {
+      font-size: 7.5px;
+      font-weight: 800;
+      letter-spacing: 0.1em;
+      opacity: 0.8;
+      color: var(--branco);
+    }
+
+    .book-3d-front .book-title {
+      font-size: 11px;
+      font-weight: 900;
+      line-height: 1.2;
+      color: var(--amarelo);
+      margin-top: 4px;
+    }
+
+    .book-3d-front .book-icon {
+      margin: 8px 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .book-3d-front .book-icon svg {
+      width: 24px;
+      height: 24px;
+      fill: var(--amarelo);
+      opacity: 0.9;
+    }
+
+    .book-3d-front .book-footer {
+      font-size: 7px;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+      color: var(--branco);
+      opacity: 0.7;
+    }
+
+    .book-3d-spine {
+      position: absolute;
+      width: 12px;
+      height: 100%;
+      background: #1e1b1b;
+      left: 0;
+      transform: rotateY(-90deg);
+      transform-origin: left;
+      z-index: 1;
+    }
+
+    .book-3d-page {
+      position: absolute;
+      width: 100px;
+      height: 139px;
+      background: #ffffff;
+      top: 3px;
+      right: -2px;
+      transform: translateZ(-5px);
+      box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+      border-radius: 0 4px 4px 0;
+      z-index: 0;
+    }
+
+    /* Modificações de Grid de Bônus */
+    .bonus-grid {
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)) !important;
+    }
+
+    @media (max-width: 767px) {
+      .bonus-grid {
+        grid-template-columns: 1fr !important;
+      }
+    }
+
+    .bonus-card {
+      padding: 0 !important;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      min-height: 400px;
+    }
+
+    .bonus-card-body {
+      padding: 20px !important;
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+    }
+
+    .bonus-card-title {
+      font-weight: 800;
+      font-size: 15.5px !important;
+      color: var(--preto-puro);
+      margin-bottom: 8px;
+    }
+
+    .bonus-card-desc {
+      font-size: 13px !important;
+      color: var(--cinza-muted);
+      line-height: 1.5;
+      margin-bottom: 16px;
+    }
+
+    .bonus-card-footer-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: auto;
+      padding-top: 14px;
+      border-top: 1px solid #f0f0f0;
+      width: 100%;
+    }
+
+    .bonus-price-old {
+      font-size: 12px;
+      text-decoration: line-through;
+      color: #c93b3b;
+      font-weight: 700;
+    }
+
+    .bonus-price-free {
+      font-size: 11px;
+      font-weight: 800;
+      color: var(--branco);
+      background-color: var(--verde);
+      padding: 4px 10px;
+      border-radius: 4px;
+      letter-spacing: 0.02em;
+    }
+
+    /* --- OVERRIDES E REDESENHO DOS PLANOS DE PREÇOS (DE ACORDO COM O MOCKUP) --- */
+    .plan-card-basic {
+      background-color: var(--branco) !important;
+      border: 1px solid var(--borda) !important;
+      border-radius: 12px !important;
+      padding: 24px 20px !important;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.02) !important;
+      position: relative !important;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      flex: 1;
+    }
+
+    .plan-card-complete {
+      background-color: var(--branco) !important;
+      border: 2px solid var(--amarelo) !important;
+      border-radius: 12px !important;
+      padding: 0 0 24px 0 !important; /* Sem padding no topo para o banner flush */
+      box-shadow: 0 10px 30px rgba(255, 214, 0, 0.08) !important;
+      position: relative !important;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      flex: 1;
+    }
+
+    .plan-card-complete-body {
+      padding: 24px 20px 0 20px;
+    }
+
+    /* Plan Mockups CSS */
+    .plan-mockup-wrapper {
+      margin: 16px auto 24px;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 180px;
+    }
+    .plan-mockup-img {
+      max-width: 100%;
+      height: auto;
+      max-height: 170px;
+      object-fit: contain;
+      filter: drop-shadow(0 12px 24px rgba(0,0,0,0.12));
+      transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .plan-card-basic:hover .plan-mockup-img,
+    .plan-card-complete:hover .plan-mockup-img {
+      transform: translateY(-4px) scale(1.03);
+    }
+
+    /* Básico Banner */
+    .basic-warning-badge {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      background-color: #fffde6;
+      border: 1px solid var(--amarelo);
+      color: #a37b00;
+      font-size: 12px;
+      font-weight: 700;
+      padding: 6px 14px;
+      border-radius: 99px;
+      width: fit-content;
+      margin: 0 auto 20px auto;
+    }
+
+    .basic-warning-badge svg {
+      width: 14px;
+      height: 14px;
+      fill: #a37b00;
+    }
+
+    /* Complete Banner Flush Top */
+    .complete-flush-header {
+      background-color: var(--preto-puro);
+      color: var(--amarelo);
+      font-weight: 800;
+      font-size: 13.5px;
+      text-align: center;
+      padding: 10px 12px;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+    }
+
+    .complete-social-badge {
+      background-color: #e6f6ec;
+      border: 1px solid #ccefd8;
+      color: var(--verde);
+      font-size: 11px;
+      font-weight: 700;
+      padding: 6px 14px;
+      border-radius: 99px;
+      width: fit-content;
+      margin: 16px auto;
+      text-align: center;
+    }
+
+    .complete-bonus-pill {
+      background-color: var(--verde);
+      color: var(--branco);
+      font-size: 11px;
+      font-weight: 800;
+      padding: 5px 12px;
+      border-radius: 99px;
+      width: fit-content;
+      margin: 8px auto 16px auto;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .complete-3x-badge {
+      background-color: #c93b3b;
+      color: var(--branco);
+      font-size: 11.5px;
+      font-weight: 800;
+      padding: 5px 14px;
+      border-radius: 99px;
+      width: fit-content;
+      margin: 0 auto 16px auto;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      text-transform: uppercase;
+      letter-spacing: 0.02em;
+    }
+
+    /* Mockup Bundle Container */
+    .mockup-bundle-3d {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 180px;
+      perspective: 1000px;
+      position: relative;
+      margin-bottom: 24px;
+      background-color: #f8f9fa;
+      border-radius: 8px;
+      overflow: hidden;
+      padding: 10px;
+    }
+
+    /* Phone Mockup */
+    .phone-mockup-3d {
+      width: 65px;
+      height: 120px;
+      background: #1a1a1a;
+      border: 2px solid #3a3a3a;
+      border-radius: 10px;
+      box-shadow: 4px 6px 15px rgba(0,0,0,0.2);
+      position: absolute;
+      right: 18%;
+      bottom: 5px;
+      transform: rotateY(-22deg) rotateX(6deg) translateZ(20px);
+      z-index: 5;
+      overflow: hidden;
+      padding: 4px;
+      box-sizing: border-box;
+    }
+
+    .phone-mockup-screen {
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(135deg, #1b8144 0%, #111111 100%);
+      border-radius: 6px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: var(--branco);
+      font-weight: 800;
+      font-size: 8px;
+      text-align: center;
+      padding: 2px;
+      line-height: 1.1;
+      box-sizing: border-box;
+    }
+
+    .phone-mockup-screen span {
+      font-size: 5px;
+      color: var(--amarelo);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-top: 2px;
+    }
+
+    /* Seta animada vermelha */
+    .pricing-bouncing-arrow-container {
+      display: flex;
+      justify-content: center;
+      margin: 12px 0 4px 0;
+    }
+
+    .pricing-bouncing-arrow {
+      width: 32px;
+      height: 32px;
+      background-color: #c93b3b;
+      color: var(--branco);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+      font-weight: 900;
+      animation: bouncePricingArrow 1.2s infinite alternate;
+      box-shadow: 0 4px 10px rgba(201, 59, 59, 0.3);
+    }
+
+    @keyframes bouncePricingArrow {
+      0% { transform: translateY(0); }
+      100% { transform: translateY(6px); }
+    }
+
+    .pricing-plan-alert-red {
+      color: #c93b3b;
+      font-weight: 800;
+      font-size: 13px;
+      text-align: center;
+      margin-top: 6px;
+      display: block;
+      line-height: 1.4;
+    }
+
+    .pricing-plan-vitalicio {
+      color: var(--cinza-muted);
+      font-weight: 700;
+      font-size: 11px;
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-top: 10px;
+      display: block;
+    }
+
+    /* Correções de layout gerais para cards */
+    .plan-feature-item-emoji {
+      display: flex;
+      align-items: flex-start;
+      gap: 8px;
+      font-size: 13.5px;
+      color: var(--charcoal);
+      font-weight: 600;
+      margin-bottom: 12px;
+      line-height: 1.4;
+      text-align: left;
+    }
+
+    .plan-feature-item-emoji span.emoji {
+      font-size: 16px;
+      flex-shrink: 0;
+    }
+
+    .plan-price-old-styled {
+      font-size: 13px;
+      text-decoration: line-through;
+      color: #c93b3b;
+      font-weight: 700;
+      text-align: center;
+      display: block;
+      margin-bottom: 2px;
+    }
+
+    .plan-price-main-styled {
+      font-size: 40px;
+      font-weight: 900;
+      color: var(--verde);
+      text-align: center;
+      margin: 0;
+      line-height: 1;
+    }
+
+    .plan-price-badge-save-styled {
+      background-color: #e6f6ec;
+      border: 1px solid #ccefd8;
+      color: var(--verde);
+      font-size: 12px;
+      font-weight: 800;
+      padding: 5px 12px;
+      border-radius: 6px;
+      width: fit-content;
+      margin: 10px auto;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .plan-price-badge-save-styled svg {
+      width: 14px;
+      height: 14px;
+      fill: var(--verde);
+    }
+
+    body.modal-open {
+      overflow: hidden;
+    }
+
+    /* Modal de Upsell / Desconto Especial */
+    .modal-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0,0,0,0.85);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 99999;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .modal-overlay.active {
+      opacity: 1;
+      pointer-events: auto;
+    }
+    .modal-content {
+      background-color: #fff;
+      width: 90%;
+      max-width: 420px;
+      padding: 36px 24px;
+      border: 4px solid #000;
+      box-shadow: 8px 8px 0px #000;
+      position: relative;
+      font-family: inherit;
+      text-align: center;
+      border-radius: 4px;
+      box-sizing: border-box;
+      transform: translateY(20px);
+      transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .modal-overlay.active .modal-content {
+      transform: translateY(0);
+    }
+    .modal-close {
+      position: absolute;
+      top: 12px;
+      right: 18px;
+      font-size: 28px;
+      font-weight: 900;
+      color: #000;
+      cursor: pointer;
+      line-height: 1;
+    }
+    .modal-header h2 {
+      font-size: 26px;
+      font-weight: 900;
+      color: #000;
+      margin: 0;
+      text-transform: uppercase;
+      letter-spacing: -0.02em;
+    }
+    .modal-header h3 {
+      font-size: 24px;
+      font-weight: 900;
+      color: #000;
+      margin: 4px 0 12px;
+      text-transform: uppercase;
+      letter-spacing: -0.02em;
+    }
+    .modal-header p {
+      font-size: 14px;
+      color: #333;
+      font-weight: 700;
+      line-height: 1.45;
+      margin: 0;
+    }
+    .highlight-orange {
+      color: #f39c12;
+      font-weight: 800;
+    }
+    .modal-price-box {
+      border: 2px dashed #000;
+      padding: 14px 20px;
+      margin: 20px auto;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 16px;
+      box-sizing: border-box;
+    }
+    .price-old {
+      color: #999;
+      font-size: 18px;
+      text-decoration: line-through;
+      font-weight: 800;
+    }
+    .price-new {
+      color: #1bcd6c;
+      font-size: 32px;
+      font-weight: 900;
+    }
+    .modal-features-list {
+      text-align: left;
+      margin: 20px 0;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .modal-feature-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 8px;
+      font-size: 13.5px;
+      color: #000;
+      font-weight: 700;
+      line-height: 1.35;
+      border-bottom: 1px dotted #e2e2e2;
+      padding-bottom: 8px;
+    }
+    .modal-feature-item:last-child {
+      border-bottom: none;
+      padding-bottom: 0;
+    }
+    .modal-feature-item .check-icon {
+      color: #1bcd6c;
+      font-weight: 900;
+      font-size: 15px;
+      line-height: 1;
+    }
+    .btn-modal-accept {
+      background-color: #1bcd6c;
+      color: #fff;
+      border: 3px solid #000;
+      box-shadow: 4px 4px 0px #000;
+      font-weight: 900;
+      font-size: 16px;
+      padding: 16px;
+      width: 100%;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-top: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.02em;
+      transition: transform 0.1s ease, box-shadow 0.1s ease;
+      display: block;
+    }
+    .btn-modal-accept:active {
+      transform: translate(2px, 2px);
+      box-shadow: 2px 2px 0px #000;
+    }
+    .link-modal-decline {
+      display: inline-block;
+      margin-top: 16px;
+      color: #777;
+      font-size: 12px;
+      font-weight: 800;
+      text-decoration: underline;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .link-modal-decline:hover {
+      color: #333;
+    }
+
+    /* Notificação de Venda Flutuante (Prova Social) */
+    .sales-notification-toast {
+      position: fixed;
+      bottom: 20px;
+      left: 20px;
+      background-color: #fff;
+      border: 3px solid #000;
+      box-shadow: 6px 6px 0px #000;
+      border-radius: 6px;
+      padding: 14px 18px;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      z-index: 99999;
+      max-width: 340px;
+      width: calc(100% - 40px);
+      box-sizing: border-box;
+      opacity: 0;
+      transform: translateY(30px);
+      transition: opacity 0.4s ease, transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      pointer-events: none;
+    }
+    
+    .sales-notification-toast.active {
+      opacity: 1;
+      transform: translateY(0);
+      pointer-events: auto;
+    }
+
+    .notification-icon-wrapper {
+      width: 38px;
+      height: 38px;
+      background-color: var(--amarelo);
+      border: 2px solid #000;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+
+    .notification-icon {
+      width: 18px;
+      height: 18px;
+      color: #000;
+      fill: none !important;
+      stroke: currentColor !important;
+      stroke-width: 2.5px;
+    }
+
+    .notification-content {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+      text-align: left;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .notification-name {
+      font-size: 14px;
+      font-weight: 800;
+      color: #000;
+      margin: 0;
+      line-height: 1.2;
+    }
+
+    .notification-action {
+      font-size: 12px;
+      font-weight: 500;
+      color: #333;
+      margin: 0;
+      line-height: 1.3;
+    }
+
+    .notification-action .highlight-product {
+      color: #e02424; /* Destaque tipo rosa-avermelhado */
+      font-weight: 800;
+    }
+
+    .notification-meta {
+      font-size: 11px;
+      color: #777;
+      margin: 0;
+      line-height: 1.2;
+    }
+
+    /* Mobile adjustment */
+    @media (max-width: 480px) {
+      .sales-notification-toast {
+        bottom: 12px;
+        left: 12px;
+        width: calc(100% - 24px);
+        max-width: none;
+        padding: 10px 14px;
+      }
+    }
+
+  </style>
+
+  <!-- Meta Pixel Code -->
+  <script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '1007395795126219');
+  fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=1007395795126219&ev=PageView&noscript=1"
+  /></noscript>
+  <!-- End Meta Pixel Code -->
+
+  <!-- UTMify Script -->
+  <script
+    src="https://cdn.utmify.com.br/scripts/utms/latest.js"
+    data-utmify-prevent-xcod-sck
+    data-utmify-prevent-subids
+    async
+    defer
+  ></script>
+</head>
+<body>
+
+  <!-- SVGS VETORIAIS REUTILIZÁVEIS -->
+  <svg style="display: none;">
+    <!-- Checkmark -->
+    <symbol id="icon-check" viewBox="0 0 24 24">
+      <path fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" d="M20 6L9 17l-5-5"/>
+    </symbol>
+    <!-- Lightning -->
+    <symbol id="icon-lightning" viewBox="0 0 24 24">
+      <path fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
+    </symbol>
+    <!-- Fire -->
+    <symbol id="icon-fire" viewBox="0 0 24 24">
+      <path fill="currentColor" d="M12 23c-5.52 0-10-4.48-10-10 0-4.75 5.07-8.1 5.07-8.1s.38-.25.56-.05c.18.2.06.59-.06.79-1.38 2.22-1.07 5.02.82 6.91 1.61 1.61 3.53 1.25 4.31.25.78-.99.5-3.07-.63-4.52-.75-.97-.88-2.28-.31-3.23.44-.73 1.34-1.05 1.34-1.05s.31-.11.41.13c1.07 2.54-.12 6.13-.12 6.13s1.25-1.56 2.81-.5c1.88 1.28 2.12 3.99 1.06 6.06-1.5 2.94-4.25 4.97-5.26 7.18-.32.69-.06 1.48.56 1.83.62.35 1.31.18 1.63-.44.75-1.47 1.94-2.82 2.94-4.13.19-.25.56-.19.63.13.78 3.52-1.44 6.78-4.95 6.78z"/>
+    </symbol>
+    <!-- Gift -->
+    <symbol id="icon-gift" viewBox="0 0 24 24">
+      <path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M20 12v10H4V12M2 7h20v5H2zM12 22V7M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7zM12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"/>
+    </symbol>
+    <!-- Lock -->
+    <symbol id="icon-lock" viewBox="0 0 24 24">
+      <rect x="3" y="11" width="18" height="11" rx="2" ry="2" fill="none" stroke="currentColor" stroke-width="2.5"/>
+      <path fill="none" stroke="currentColor" stroke-width="2.5" d="M7 11V7a5 5 0 0 1 10 0v4"/>
+    </symbol>
+    <!-- Trophy -->
+    <symbol id="icon-trophy" viewBox="0 0 24 24">
+      <path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6M18 9h1.5a2.5 2.5 0 0 0 0-5H18M4 22h16M10 14.66V17c0 .55-.45 1-1 1H4v2h16v-2h-5c-.55 0-1-.45-1-1v-2.34M12 2a6 6 0 0 1 6 6v5a6 6 0 0 1-6 6 6 6 0 0 1-6-6V8a6 6 0 0 1 6-6z"/>
+    </symbol>
+    <!-- Star -->
+    <symbol id="icon-star" viewBox="0 0 24 24">
+      <path fill="currentColor" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/>
+    </symbol>
+    <!-- Warning Triangle -->
+    <symbol id="icon-warning" viewBox="0 0 24 24">
+      <path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/>
+      <line fill="none" stroke="currentColor" stroke-width="2" x1="12" y1="9" x2="12" y2="13"/>
+      <line fill="none" stroke="currentColor" stroke-width="2" x1="12" y1="17" x2="12.01" y2="17"/>
+    </symbol>
+  </svg>
+
+  <!-- SEÇÃO 1: FAIXA DE VALIDADE TOPO -->
+  <header class="header-validity" id="dynamic-date-bar">
+    OFERTA VÁLIDA ATÉ...
+  </header>
+
+  <main>
+    <!-- SEÇÃO 2: HERO (SUPER LIMPA) -->
+    <section class="hero">
+      <div class="container">
+        
+        <h1 class="hero-new-headline fade-el">
+          <span class="hero-badge">+200 Receitas Profissionais</span>
+          <span>Sabonetes Artesanais</span>
+          <span class="hero-glow-text">Mais Vendidos</span>
+        </h1>
+
+        <!-- Visual da Capa -->
+        <div class="hero-visual fade-el">
+          <img src="assets/hero-mockup.png" alt="200 Receitas de Sabonete Artesanal">
+        </div>
+
+        <p class="hero-description fade-el">
+          Tenha acesso imediato a receitas profissionais de sabonetes artesanais e à nossa calculadora inteligente — pronto para produzir, embalar e começar a vender hoje mesmo.
+        </p>
+
+        <!-- Botão CTA Principal -->
+        <a href="#planos" class="btn-pill-amarelo animate-pulse-btn fade-el" style="white-space: nowrap;">
+          Quero começar hoje por R$ 9,90
+        </a>
+
+        <!-- Selos do Hero -->
+        <div class="hero-selos fade-el">
+          <div class="hero-selo-item">
+            <svg class="svg-icon"><use href="#icon-check"/></svg>
+            Compra 100% Segura
+          </div>
+          <div class="hero-selo-item">
+            <svg class="svg-icon"><use href="#icon-lightning"/></svg>
+            Acesso Imediato
+          </div>
+          <div class="hero-selo-item">
+            <svg class="svg-icon"><use href="#icon-lock"/></svg>
+            7 Dias de Garantia
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SEÇÃO 3: GALERIA AUTO-SCROLL (LINHA ÚNICA) -->
+    <section class="gallery-section">
+      <h2 class="gallery-title fade-el">O QUE VOCÊ VAI APRENDER A FAZER</h2>
+      
+      <div class="gallery-carousel-wrapper fade-el">
+        <div class="gallery-track">
+          <!-- Bloco 1 de 12 Imagens -->
+          <div class="gallery-card">
+            <img src="assets/galeria-01.jpg" alt="Glicerinados">
+            <div class="gallery-overlay"><span class="gallery-tag">Glicerinados</span></div>
+          </div>
+          <div class="gallery-card">
+            <img src="assets/galeria-02.jpg" alt="Mel e Aveia">
+            <div class="gallery-overlay"><span class="gallery-tag">Mel e Aveia</span></div>
+          </div>
+          <div class="gallery-card">
+            <img src="assets/galeria-03.jpg" alt="Esfoliantes">
+            <div class="gallery-overlay"><span class="gallery-tag">Esfoliantes</span></div>
+          </div>
+          <div class="gallery-card">
+            <img src="assets/galeria-04.jpg" alt="Linha Infantil">
+            <div class="gallery-overlay"><span class="gallery-tag">Linha Infantil</span></div>
+          </div>
+          <div class="gallery-card">
+            <img src="assets/galeria-05.jpg" alt="Kits de Presente">
+            <div class="gallery-overlay"><span class="gallery-tag">Kits de Presente</span></div>
+          </div>
+          <div class="gallery-card">
+            <img src="assets/galeria-06.jpg" alt="Leite de Cabra">
+            <div class="gallery-overlay"><span class="gallery-tag">Leite de Cabra</span></div>
+          </div>
+          <div class="gallery-card">
+            <img src="assets/galeria-07.jpg" alt="Ervas e Flores">
+            <div class="gallery-overlay"><span class="gallery-tag">Ervas e Flores</span></div>
+          </div>
+          <div class="gallery-card">
+            <img src="assets/galeria-08.jpg" alt="Linha Natalina">
+            <div class="gallery-overlay"><span class="gallery-tag">Linha Natalina</span></div>
+          </div>
+          <div class="gallery-card">
+            <img src="assets/galeria-09.jpg" alt="Sabonete Líquido">
+            <div class="gallery-overlay"><span class="gallery-tag">Sabonete Líquido</span></div>
+          </div>
+          <div class="gallery-card">
+            <img src="assets/galeria-10.jpg" alt="Mix Artesanal">
+            <div class="gallery-overlay"><span class="gallery-tag">Mix Artesanal</span></div>
+          </div>
+          <div class="gallery-card">
+            <img src="assets/galeria-01.jpg" alt="Glicerinados">
+            <div class="gallery-overlay"><span class="gallery-tag">Glicerinados</span></div>
+          </div>
+          <div class="gallery-card">
+            <img src="assets/galeria-02.jpg" alt="Mel e Aveia">
+            <div class="gallery-overlay"><span class="gallery-tag">Mel e Aveia</span></div>
+          </div>
+
+          <!-- Bloco 2 Duplicado para loop perfeito -->
+          <div class="gallery-card">
+            <img src="assets/galeria-01.jpg" alt="Glicerinados">
+            <div class="gallery-overlay"><span class="gallery-tag">Glicerinados</span></div>
+          </div>
+          <div class="gallery-card">
+            <img src="assets/galeria-02.jpg" alt="Mel e Aveia">
+            <div class="gallery-overlay"><span class="gallery-tag">Mel e Aveia</span></div>
+          </div>
+          <div class="gallery-card">
+            <img src="assets/galeria-03.jpg" alt="Esfoliantes">
+            <div class="gallery-overlay"><span class="gallery-tag">Esfoliantes</span></div>
+          </div>
+          <div class="gallery-card">
+            <img src="assets/galeria-04.jpg" alt="Linha Infantil">
+            <div class="gallery-overlay"><span class="gallery-tag">Linha Infantil</span></div>
+          </div>
+          <div class="gallery-card">
+            <img src="assets/galeria-05.jpg" alt="Kits de Presente">
+            <div class="gallery-overlay"><span class="gallery-tag">Kits de Presente</span></div>
+          </div>
+          <div class="gallery-card">
+            <img src="assets/galeria-06.jpg" alt="Leite de Cabra">
+            <div class="gallery-overlay"><span class="gallery-tag">Leite de Cabra</span></div>
+          </div>
+          <div class="gallery-card">
+            <img src="assets/galeria-07.jpg" alt="Ervas e Flores">
+            <div class="gallery-overlay"><span class="gallery-tag">Ervas e Flores</span></div>
+          </div>
+          <div class="gallery-card">
+            <img src="assets/galeria-08.jpg" alt="Linha Natalina">
+            <div class="gallery-overlay"><span class="gallery-tag">Linha Natalina</span></div>
+          </div>
+          <div class="gallery-card">
+            <img src="assets/galeria-09.jpg" alt="Sabonete Líquido">
+            <div class="gallery-overlay"><span class="gallery-tag">Sabonete Líquido</span></div>
+          </div>
+          <div class="gallery-card">
+            <img src="assets/galeria-10.jpg" alt="Mix Artesanal">
+            <div class="gallery-overlay"><span class="gallery-tag">Mix Artesanal</span></div>
+          </div>
+          <div class="gallery-card">
+            <img src="assets/galeria-01.jpg" alt="Glicerinados">
+            <div class="gallery-overlay"><span class="gallery-tag">Glicerinados</span></div>
+          </div>
+          <div class="gallery-card">
+            <img src="assets/galeria-02.jpg" alt="Mel e Aveia">
+            <div class="gallery-overlay"><span class="gallery-tag">Mel e Aveia</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEÇÃO 4: O QUE VOCÊ VAI RECEBER (ESTILO FAIXA VINHO DO PRINT) -->
+    <section class="receive-section">
+      <h2 class="receive-title-bar">O QUE VOCÊ VAI RECEBER</h2>
+
+      <div class="container">
+        <!-- Mockup Visual -->
+        <div class="receive-mockup-wrapper fade-el">
+          <img src="assets/o-que-receber-stack.png" alt="Visualização do Guia de Sabonete" class="receive-mockup-img">
+          <div>
+            <a href="#planos" class="btn-acesso-imediato">ACESSO IMEDIATO</a>
+          </div>
+        </div>
+
+        <!-- Lista de Cards -->
+        <div class="receive-cards-list">
+          
+          <!-- ITEM 01 -->
+          <div class="receive-card fade-el">
+            <span class="receive-card-badge">ITEM 01</span>
+            <h3 class="receive-card-title">200 RECEITAS PRONTAS PARA PRODUZIR E VENDER</h3>
+            <p class="receive-card-desc">Mais de 200 passo a passos organizados e fáceis de seguir — com os sabonetes mais vendidos e desejados do mercado hoje.</p>
+            <div class="receive-checklist">
+              <div class="receive-check-item"><svg class="svg-icon"><use href="#icon-check"/></svg> Glicerina Perfumada</div>
+              <div class="receive-check-item"><svg class="svg-icon"><use href="#icon-check"/></svg> Mel e Aveia Esfoliante</div>
+              <div class="receive-check-item"><svg class="svg-icon"><use href="#icon-check"/></svg> Linha de Sabonete Infantil</div>
+              <div class="receive-check-item"><svg class="svg-icon"><use href="#icon-check"/></svg> Argila e Capim Limão</div>
+              <div class="receive-check-item"><svg class="svg-icon"><use href="#icon-check"/></svg> Leite de Cabra Hidratante</div>
+              <div class="receive-check-item"><svg class="svg-icon"><use href="#icon-check"/></svg> Kits de Presente</div>
+              <div class="receive-check-item"><svg class="svg-icon"><use href="#icon-check"/></svg> Receitas Comemorativas</div>
+              <div class="receive-check-item"><svg class="svg-icon"><use href="#icon-check"/></svg> E muito mais...</div>
+            </div>
+          </div>
+
+          <!-- ITEM 02 -->
+          <div class="receive-card fade-el">
+            <span class="receive-card-badge">ITEM 02</span>
+            <h3 class="receive-card-title">CALCULADORA DE PRECIFICAÇÃO AUTOMÁTICA</h3>
+            <p class="receive-card-desc" style="margin-bottom:0;">Coloque o custo que você gastou nos ingredientes e ela te dirá exatamente por quanto vender — sem chutes, sem medo de errar a conta e com o seu lucro totalmente garantido.</p>
+          </div>
+
+          <!-- ITEM 03 -->
+          <div class="receive-card fade-el">
+            <span class="receive-card-badge">ITEM 03</span>
+            <h3 class="receive-card-title">GUIA DE COMPRAS DE MATÉRIA-PRIMA</h3>
+            <p class="receive-card-desc" style="margin-bottom:0;">Lista completa dos melhores fornecedores oficiais do Brasil para comprar bases glicerinadas, essências e fôrmas no atacado direto na internet pelo menor preço.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- NOVA SEÇÃO: POR QUE ESCOLHER ESSAS RECEITAS -->
+    <section class="choose-section">
+      <div class="container">
+        <h2 class="choose-title fade-el">Por que escolher essas <span>Receitas</span>?</h2>
+        
+        <div class="choose-grid">
+          <!-- CARD 1 -->
+          <div class="choose-card fade-el">
+            <div class="choose-icon-wrapper">
+              <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2" fill="none"/><circle cx="12" cy="12" r="6" stroke="currentColor" stroke-width="2" fill="none"/><circle cx="12" cy="12" r="2" fill="currentColor"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            </div>
+            <h3 class="choose-card-title">Comece do zero sem travar</h3>
+            <p class="choose-card-desc">Receitas passo a passo extremamente detalhadas, pensadas para quem nunca fez sabão antes.</p>
+          </div>
+
+          <!-- CARD 2 -->
+          <div class="choose-card fade-el">
+            <div class="choose-icon-wrapper">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+            </div>
+            <h3 class="choose-card-title">Monte em minutos</h3>
+            <p class="choose-card-desc">Processos simplificados e rápidos para você criar suas primeiras peças sem perder tempo.</p>
+          </div>
+
+          <!-- CARD 3 -->
+          <div class="choose-card fade-el">
+            <div class="choose-icon-wrapper">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+            </div>
+            <h3 class="choose-card-title">Baixíssimo custo</h3>
+            <p class="choose-card-desc">Produza sabonetes maravilhosos gastando muito pouco com ingredientes simples e acessíveis.</p>
+          </div>
+
+          <!-- CARD 4 -->
+          <div class="choose-card fade-el">
+            <div class="choose-icon-wrapper">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <h3 class="choose-card-title">Ingredientes 100% seguros</h3>
+            <p class="choose-card-desc">Fórmulas testadas e seguras, que cuidam da pele sem substâncias nocivas.</p>
+          </div>
+
+          <!-- CARD 5 -->
+          <div class="choose-card fade-el">
+            <div class="choose-icon-wrapper">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/><path d="M3 20h18"/></svg>
+            </div>
+            <h3 class="choose-card-title">Lucro acelerado</h3>
+            <p class="choose-card-desc">Alta margem de lucro com produtos de alta procura diária. Recupere o investimento no primeiro dia.</p>
+          </div>
+
+          <!-- CARD 6 -->
+          <div class="choose-card fade-el">
+            <div class="choose-icon-wrapper">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 12 20 22 4 22 4 12"/><rect x="2" y="7" width="20" height="5"/><line x1="12" y1="22" x2="12" y2="7"/><path d="M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7z"/><path d="M12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"/></svg>
+            </div>
+            <h3 class="choose-card-title">Embalagens apaixonantes</h3>
+            <p class="choose-card-desc">Aprenda a criar embalagens lindas que valorizam seu produto final instantaneamente.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAIXA DE CTA DEBAIXO DA SEÇÃO -->
+    <div class="choose-cta-bar">
+      <a href="#planos" class="btn-choose-cta">Quero as receitas agora! →</a>
+    </div>
+
+    <!-- SEÇÃO 5: IDEAL PARA VOCÊ QUE DESEJA (ESTILO LISTA PRINT) -->
+    <section class="ideal-section">
+      <div class="container">
+        
+        <h2 class="ideal-title fade-el">Ideal <span>para você</span> que deseja:</h2>
+
+        <div class="ideal-list">
+          
+          <div class="ideal-card-item fade-el">
+            <span class="ideal-emoji-check">✅</span>
+            <p class="ideal-card-text">Precisa de dinheiro rápido para pagar as contas</p>
+          </div>
+
+          <div class="ideal-card-item fade-el">
+            <span class="ideal-emoji-check">✅</span>
+            <p class="ideal-card-text">Não quer ou não pode investir muito no início</p>
+          </div>
+
+          <div class="ideal-card-item fade-el">
+            <span class="ideal-emoji-check">✅</span>
+            <p class="ideal-card-text">Quer uma fonte de renda segura sem sair de perto dos filhos</p>
+          </div>
+
+          <div class="ideal-card-item fade-el">
+            <span class="ideal-emoji-check">✅</span>
+            <p class="ideal-card-text">Tem receio de cobrar errado e perder dinheiro no final</p>
+          </div>
+
+          <div class="ideal-card-item fade-el">
+            <span class="ideal-emoji-check">✅</span>
+            <p class="ideal-card-text">Precisa de um material prático, rápido e sem enrolações</p>
+          </div>
+
+          <div class="ideal-card-item fade-el">
+            <span class="ideal-emoji-check">✅</span>
+            <p class="ideal-card-text">Já tentou outros cursos ou negócios e não obteve retorno</p>
+          </div>
+
+          <div class="ideal-card-item fade-el">
+            <span class="ideal-emoji-check">✅</span>
+            <p class="ideal-card-text">Não tem muito tempo livre e precisa faturar logo</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SEÇÃO 6: BÔNUS EXCLUSIVOS (ESTILO MURAL DO PRINT) -->
+    <section class="bonus-section">
+      <div class="container">
+        
+        <p class="bonus-pre fade-el">Você também vai receber...</p>
+        <h2 class="bonus-main-title fade-el">6 BÔNUS EXCLUSIVOS</h2>
+
+        <div class="bonus-grid">
+          
+          <!-- BÔNUS 01 -->
+          <div class="bonus-card fade-el">
+            <div class="bonus-card-header">
+              <span>#01 - BÔNUS HOJE!</span>
+            </div>
+            <div class="bonus-cover-wrapper">
+              <img src="assets/bonus-01-kit-primeira-venda.png" alt="Bônus 1" class="bonus-cover-img">
+            </div>
+            <div class="bonus-card-body">
+              <h3 class="bonus-card-title">KIT PRIMEIRA VENDA</h3>
+              <p class="bonus-card-desc">Um plano prático detalhado para fazer suas primeiras vendas em menos de 24 horas usando o WhatsApp.</p>
+              <div class="bonus-card-footer-row">
+                <span class="bonus-price-old">De R$37</span>
+                <span class="bonus-price-free">GRÁTIS HOJE</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- BÔNUS 02 -->
+          <div class="bonus-card fade-el">
+            <div class="bonus-card-header">
+              <span>#02 - BÔNUS HOJE!</span>
+            </div>
+            <div class="bonus-cover-wrapper">
+              <img src="assets/bonus-02-legendas-prontas.png" alt="Bônus 2" class="bonus-cover-img">
+            </div>
+            <div class="bonus-card-body">
+              <h3 class="bonus-card-title">30 LEGENDAS PRONTAS</h3>
+              <p class="bonus-card-desc">Textos prontos de alta conversão para você apenas copiar e colar nas redes sociais ou WhatsApp.</p>
+              <div class="bonus-card-footer-row">
+                <span class="bonus-price-old">De R$37</span>
+                <span class="bonus-price-free">GRÁTIS HOJE</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- BÔNUS 03 -->
+          <div class="bonus-card fade-el">
+            <div class="bonus-card-header">
+              <span>#03 - BÔNUS HOJE!</span>
+            </div>
+            <div class="bonus-cover-wrapper">
+              <img src="assets/bonus-03-foto-celular.png" alt="Bônus 3" class="bonus-cover-img">
+            </div>
+            <div class="bonus-card-body">
+              <h3 class="bonus-card-title">GUIA DE FOTOS COM CELULAR</h3>
+              <p class="bonus-card-desc">Como tirar fotos bonitas e atrativas das suas criações no celular sem precisar de cenários caros.</p>
+              <div class="bonus-card-footer-row">
+                <span class="bonus-price-old">De R$47</span>
+                <span class="bonus-price-free">GRÁTIS HOJE</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- BÔNUS 04 -->
+          <div class="bonus-card fade-el">
+            <div class="bonus-card-header">
+              <span>#04 - BÔNUS HOJE!</span>
+            </div>
+            <div class="bonus-cover-wrapper">
+              <img src="assets/bonus-04-figurinhas.png" alt="Bônus 4" class="bonus-cover-img">
+            </div>
+            <div class="bonus-card-body">
+              <h3 class="bonus-card-title">50 FIGURINHAS EXCLUSIVAS</h3>
+              <p class="bonus-card-desc">Figurinhas divertidas e promocionais prontas para postar nos stories e atrair encomendas rápidas.</p>
+              <div class="bonus-card-footer-row">
+                <span class="bonus-price-old">De R$27</span>
+                <span class="bonus-price-free">GRÁTIS HOJE</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- BÔNUS 05 -->
+          <div class="bonus-card fade-el">
+            <div class="bonus-card-header">
+              <span>#05 - BÔNUS HOJE!</span>
+            </div>
+            <div class="bonus-cover-wrapper">
+              <img src="assets/bonus-05-embalagens.png" alt="Bônus 5" class="bonus-cover-img">
+            </div>
+            <div class="bonus-card-body">
+              <h3 class="bonus-card-title">GUIA EMBALAGENS QUE VALORIZAM</h3>
+              <p class="bonus-card-desc">Aprenda a fazer embalagens que custam menos de R$ 2,00 e valorizam seu sabonete em mais de R$ 10,00.</p>
+              <div class="bonus-card-footer-row">
+                <span class="bonus-price-old">De R$37</span>
+                <span class="bonus-price-free">GRÁTIS HOJE</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- BÔNUS 06 -->
+          <div class="bonus-card fade-el">
+            <div class="bonus-card-header">
+              <span>#06 - BÔNUS HOJE!</span>
+            </div>
+            <div class="bonus-cover-wrapper">
+              <img src="assets/bonus-06-datas.png" alt="Bônus 6" class="bonus-cover-img">
+            </div>
+            <div class="bonus-card-body">
+              <h3 class="bonus-card-title">RECEITAS PARA DATAS ESPECIAIS</h3>
+              <p class="bonus-card-desc">Combinações aromáticas incríveis para o Dia das Mães, Dia dos Namorados e Natal — as datas mais lucrativas.</p>
+              <div class="bonus-card-footer-row">
+                <span class="bonus-price-old">De R$27</span>
+                <span class="bonus-price-free">GRÁTIS HOJE</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Box de valor acumulado -->
+        <div class="bonus-total-card fade-el">
+          <p class="bonus-total-label">Valor Total dos Bônus:</p>
+          <p class="bonus-total-value">R$ 212,00</p>
+          <p class="bonus-total-footer">TUDO INCLUÍDO DE GRAÇA HOJE</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SEÇÃO 7: PLANOS DE PREÇO -->
+    <section class="pricing-section" id="planos">
+      <div class="container">
+        
+        <h2 class="pricing-title fade-el">Escolha o <span>Melhor Plano</span> Para Você!</h2>
+
+        <!-- Timer Oferta (Urgência) -->
+        <div class="pricing-countdown-block fade-el">
+          <p class="pricing-timer-label">Oferta Especial — Termina em:</p>
+          <div class="pricing-timer-container">
+            <div class="pricing-timer-box" id="timer-hour">23</div>
+            <span class="pricing-timer-divider">:</span>
+            <div class="pricing-timer-box" id="timer-min">59</div>
+            <span class="pricing-timer-divider">:</span>
+            <div class="pricing-timer-box" id="timer-sec">59</div>
+          </div>
+        </div>
+
+        <!-- Grid de Planos -->
+        <div class="pricing-grid">
+          
+          <!-- Plano Básico -->
+          <div class="plan-card-basic fade-el">
+            <div>
+              <div class="basic-warning-badge">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+                Você está perdendo os bônus
+              </div>
+              <h3 class="plan-title" style="text-align:center; font-weight:800; font-size:22px; color:var(--preto-puro); margin-bottom:12px;">Plano Básico</h3>
+              
+              <!-- Mockup Básico -->
+              <div class="plan-mockup-wrapper">
+                <img src="assets/plano-basico.png" alt="Plano Básico" class="plan-mockup-img">
+              </div>
+
+              <div class="plan-feature-list">
+                <div class="plan-feature-item-emoji">
+                  <span class="emoji">✅</span>
+                  200 Receitas Prontas para Produzir
+                </div>
+                <div class="plan-feature-item-emoji">
+                  <span class="emoji">✅</span>
+                  Calculadora de Precificação
+                </div>
+                <div class="plan-feature-item-emoji">
+                  <span class="emoji">✅</span>
+                  Guia Oficial de Fornecedores
+                </div>
+                <div class="plan-feature-item-emoji" style="color: #c93b3b; opacity: 0.85;">
+                  <span class="emoji">❌</span>
+                  Sem os 6 Bônus Exclusivos
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <span class="plan-price-old-styled">De R$ 47,00</span>
+              <p class="plan-price-main-styled">R$ 9,90</p>
+              <span class="pricing-plan-vitalicio">Acesso vitalício imediato</span>
+              <button class="btn-plan-buy btn-buy-basic">QUERO O BÁSICO</button>
+              <span class="pricing-plan-alert-red">92% das pessoas aproveitam a oferta abaixo:</span>
+              <div class="pricing-bouncing-arrow-container">
+                <div class="pricing-bouncing-arrow">↓</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Plano Completo (Destaque Principal) -->
+          <div class="plan-card-complete fade-el">
+            <!-- Flush Top Header -->
+            <div class="complete-flush-header">
+              ⭐ Mais Escolhido ⭐
+            </div>
+            
+            <div class="plan-card-complete-body">
+              <div>
+                <div class="complete-social-badge">
+                  +5.489 pessoas escolheram essa oferta
+                </div>
+                <h3 class="plan-title-complete" style="text-align:center; font-weight:800; font-size:24px; color:var(--preto-puro); margin-bottom:8px;">Plano Completo</h3>
+                
+                <div class="complete-bonus-pill">
+                  TODOS OS BÔNUS INCLUSOS
+                </div>
+
+                <!-- Mockup Completo -->
+                <div class="plan-mockup-wrapper">
+                  <img src="assets/plano-completo.png" alt="Plano Completo" class="plan-mockup-img">
+                </div>
+
+                <div class="complete-3x-badge">
+                  🔥 3x Mais Conteúdo
+                </div>
+
+                <div class="plan-feature-list">
+                  <div class="plan-feature-item-emoji">
+                    <span class="emoji">✅</span>
+                    TUDO DO PLANO BÁSICO+
+                  </div>
+                  <div class="plan-feature-item-emoji">
+                    <span class="emoji">✅</span>
+                    Videoaulas de montagem passo a passo
+                  </div>
+                  <div class="plan-feature-item-emoji">
+                    <span class="emoji">✅</span>
+                    Rótulos e etiquetas prontos para imprimir
+                  </div>
+                  <div class="plan-feature-item-emoji">
+                    <span class="emoji">✅</span>
+                    Calendário de vendas do ano
+                  </div>
+                  <div class="plan-feature-item-emoji">
+                    <span class="emoji">✅</span>
+                    Tabela de combinações de fragrâncias e cores
+                  </div>
+                  <div class="plan-feature-item-emoji">
+                    <span class="emoji">✅</span>
+                    Acesso a grupo VIP de suporte (WhatsApp/Telegram)
+                  </div>
+                  <div class="plan-feature-item-emoji" style="color: var(--verde);">
+                    <span class="emoji">✅</span>
+                    BÔNUS: Kit Primeira Venda
+                  </div>
+                  <div class="plan-feature-item-emoji" style="color: var(--verde);">
+                    <span class="emoji">✅</span>
+                    BÔNUS: 30 Legendas Prontas
+                  </div>
+                  <div class="plan-feature-item-emoji" style="color: var(--verde);">
+                    <span class="emoji">✅</span>
+                    BÔNUS: Guia de Fotos com Celular
+                  </div>
+                  <div class="plan-feature-item-emoji" style="color: var(--verde);">
+                    <span class="emoji">✅</span>
+                    BÔNUS: 50 Figurinhas Exclusivas
+                  </div>
+                  <div class="plan-feature-item-emoji" style="color: var(--verde);">
+                    <span class="emoji">✅</span>
+                    BÔNUS: Embalagens que Valorizam
+                  </div>
+                  <div class="plan-feature-item-emoji" style="color: var(--verde);">
+                    <span class="emoji">✅</span>
+                    BÔNUS: Receitas Datas Especiais
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <span class="plan-price-old-styled">De R$ 259,00</span>
+                <p class="plan-price-main-styled">R$ 19,90</p>
+                <div class="plan-price-badge-save-styled">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 12 20 22 4 22 4 12"/><rect x="2" y="7" width="20" height="5"/><line x1="12" y1="22" x2="12" y2="7"/><path d="M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7z"/><path d="M12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"/></svg>
+                  Você economiza R$ 239,10 hoje
+                </div>
+                <button class="btn-plan-buy btn-buy-complete animate-pulse-btn">QUERO O PLANO COMPLETO</button>
+                <span class="pricing-plan-vitalicio">Acesso vitalício imediato</span>
+                <span class="pricing-plan-alert-red" style="font-size: 12.5px; margin-top: 4px;">APROVEITE AGORA: Você não vai encontrar esse preço depois!</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Selos de pagamento -->
+        <div class="pricing-footer fade-el">
+          <p class="pricing-footer-tag">COMPRA SEGURA E INTEGRALMENTE PROTEGIDA</p>
+          <div class="payment-icons-row">
+            <!-- Visa -->
+            <svg class="payment-icon-svg" viewBox="0 0 48 32" width="36">
+              <rect width="48" height="32" rx="4" fill="#1A1A1A"/>
+              <path d="M16.5 10l-1.8 8.1h-2.3L14.2 10h2.3zm8.3 0c-.5-.2-1.3-.4-2.1-.4-2.3 0-3.9 1.1-3.9 2.8 0 1.2 1.1 1.9 2 2.3.9.4 1.2.7 1.2 1.1 0 .6-.8.9-1.5.9-1 0-1.7-.2-2.3-.5l-.3-.1-.3 2.1c.6.3 1.8.5 2.9.5 2.4 0 4-1.1 4-2.9 0-1-1.2-1.7-2.4-2.2-.7-.4-1.2-.6-1.2-1 0-.4.5-.8 1.4-.8.8 0 1.4.2 1.9.4l.2.1.3-2.1zm8.3 5.4l1-5.4h-2.2l-1.3 3.5-.7-3.5H27l2.8 6.5-2.2 4.9h2.3l6.2-11.4zM9 10h2.2l1.4 6.5.6-3.1-1.1-3.4H9z" fill="#FFF"/>
+            </svg>
+            <!-- Mastercard -->
+            <svg class="payment-icon-svg" viewBox="0 0 48 32" width="36">
+              <rect width="48" height="32" rx="4" fill="#1A1A1A"/>
+              <circle cx="20" cy="16" r="8" fill="#EB001B"/>
+              <circle cx="28" cy="16" r="8" fill="#F79E1B" fill-opacity="0.8"/>
+            </svg>
+            <!-- Pix -->
+            <svg class="payment-icon-svg" viewBox="0 0 48 32" width="36">
+              <rect width="48" height="32" rx="4" fill="#1A1A1A"/>
+              <path d="M24 8.5l-6.5 6.5 6.5 6.5 6.5-6.5L24 8.5zm0 2.5l4 4-4 4-4-4 4-4z" fill="#32BCAD"/>
+              <path d="M24 11.5l-2.5 2.5 2.5 2.5 2.5-2.5-2.5-2.5zm0 1l1.5 1.5-1.5 1.5-1.5-1.5 1.5-1.5z" fill="#FFF"/>
+            </svg>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SEÇÃO 8: DEPOIMENTOS -->
+    <section class="testimonials-section">
+      <div class="container">
+        
+        <div class="testimonials-header fade-el">
+          <span class="testimonials-badge">
+            <svg class="svg-icon"><use href="#icon-star"/></svg>
+            CLIENTES REAIS E COMPROVADAS
+          </span>
+          <h2 class="testimonials-title">O que nossas alunas estão achando</h2>
+        </div>
+
+        <div class="testimonials-grid">
+          
+          <!-- Testimonial 1 -->
+          <div class="testimonial-card fade-el">
+            <div>
+              <span class="testimonial-verified">
+                <svg class="svg-icon"><use href="#icon-check"/></svg>
+                VERIFICADA
+              </span>
+              <div class="testimonial-user">
+                <div class="testimonial-avatar">MA</div>
+                <div>
+                  <span class="testimonial-user-name">Maria Auxiliadora</span>
+                  <span class="testimonial-user-meta">Belo Horizonte - MG · Aluna há 3 semanas</span>
+                </div>
+              </div>
+              <div class="testimonial-stars">
+                <svg class="svg-icon"><use href="#icon-star"/></svg>
+                <svg class="svg-icon"><use href="#icon-star"/></svg>
+                <svg class="svg-icon"><use href="#icon-star"/></svg>
+                <svg class="svg-icon"><use href="#icon-star"/></svg>
+                <svg class="svg-icon"><use href="#icon-star"/></svg>
+              </div>
+              <p class="testimonial-text">"Gente, eu estava desempregada e com medo de não conseguir pagar o aluguel. Comprei o material com os últimos 30 reais que eu tinha. Fiz a primeira receita de aveia e mel no dia seguinte, tirei foto com o celular seguindo o guia e vendi 8 sabonetes em menos de duas horas no grupo de WhatsApp da minha rua! Recuperei o valor na primeira tarde."</p>
+            </div>
+            <span class="testimonial-badge-result">
+              <svg class="svg-icon"><use href="#icon-check"/></svg>
+              Renda extra imediata no WhatsApp
+            </span>
+          </div>
+
+          <!-- Testimonial 2 -->
+          <div class="testimonial-card fade-el">
+            <div>
+              <span class="testimonial-verified">
+                <svg class="svg-icon"><use href="#icon-check"/></svg>
+                VERIFICADA
+              </span>
+              <div class="testimonial-user">
+                <div class="testimonial-avatar">RC</div>
+                <div>
+                  <span class="testimonial-user-name">Regiane Costa</span>
+                  <span class="testimonial-user-meta">Sorocaba - SP · Aluna há 1 mês</span>
+                </div>
+              </div>
+              <div class="testimonial-stars">
+                <svg class="svg-icon"><use href="#icon-star"/></svg>
+                <svg class="svg-icon"><use href="#icon-star"/></svg>
+                <svg class="svg-icon"><use href="#icon-star"/></svg>
+                <svg class="svg-icon"><use href="#icon-star"/></svg>
+                <svg class="svg-icon"><use href="#icon-star"/></svg>
+              </div>
+              <p class="testimonial-text">"A calculadora de preço é maravilhosa! Eu fazia tudo de cabeça e descobri que estava quase pagando para trabalhar. Agora eu sei que gasto R$3,20 por unidade do glicerinado e cobro R$16. O lucro é absurdo. Coloquei as figurinhas no meu status e o celular não para de apitar com gente querendo encomendar."</p>
+            </div>
+            <span class="testimonial-badge-result">
+              <svg class="svg-icon"><use href="#icon-check"/></svg>
+              Lucros de até 400% por peça
+            </span>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SEÇÃO 9: NÚMEROS DE PROVA -->
+    <section class="proof-numbers-section">
+      <div class="container">
+        <div class="proof-grid">
+          
+          <div class="proof-item">
+            <span class="proof-number" data-target="6200">+0</span>
+            <span class="proof-label">Alunas faturando</span>
+          </div>
+
+          <div class="proof-item">
+            <span class="proof-number" data-target="7">0 Dias</span>
+            <span class="proof-label">Garantia total</span>
+          </div>
+
+          <div class="proof-item">
+            <span class="proof-number" data-target="3.5">R$ 0,00</span>
+            <span class="proof-label">Custo médio receita</span>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SEÇÃO 10: GARANTIA -->
+    <section class="guarantee-section">
+      <div class="container">
+        <div class="guarantee-card fade-el">
+          
+          <div class="guarantee-icon-wrapper">
+            <svg class="svg-icon"><use href="#icon-trophy"/></svg>
+          </div>
+          <h2 class="guarantee-title">GARANTIA TOTAL DE 7 DIAS</h2>
+          <p class="guarantee-subtitle">SEU RISCO É ABSOLUTAMENTE ZERO</p>
+          <p class="guarantee-text">Experimente o material completo. Se em até 7 dias você achar que o conteúdo não é ideal para você ou não se sentir pronta para começar, nós devolvemos cada centavo do seu dinheiro imediatamente. Sem perguntas ou burocracia!</p>
+          <a href="#planos" class="btn-guarantee-buy">TESTAR SEM RISCOS</a>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SEÇÃO 11: FAQ -->
+    <section class="faq-section">
+      <div class="container">
+        <div class="faq-wrapper">
+          
+          <h2 class="faq-title fade-el">Perguntas Frequentes</h2>
+
+          <div class="accordion-item fade-el">
+            <button class="accordion-trigger">
+              Como vou receber o material?
+              <span class="accordion-icon">+</span>
+            </button>
+            <div class="accordion-content">
+              <p class="accordion-text">O envio é 100% digital e imediato! Assim que o seu pagamento for confirmado (no Pix cai na hora), você receberá um e-mail com os dados de acesso para baixar o e-book das 200 receitas, os 6 bônus exclusivos e acessar a calculadora automática no seu celular ou computador.</p>
+            </div>
+          </div>
+
+          <div class="accordion-item fade-el">
+            <button class="accordion-trigger">
+              Eu realmente não tenho experiência, consigo fazer?
+              <span class="accordion-icon">+</span>
+            </button>
+            <div class="accordion-content">
+              <p class="accordion-text">Sim! Todo o passo a passo foi desenvolvido pensando em quem está começando do absoluto zero. Não é necessário ter conhecimento prévio de química ou habilidades manuais especiais. Explicamos tudo de forma muito simples e direta.</p>
+            </div>
+          </div>
+
+          <div class="accordion-item fade-el">
+            <button class="accordion-trigger">
+              Preciso comprar equipamentos caros para começar?
+              <span class="accordion-icon">+</span>
+            </button>
+            <div class="accordion-content">
+              <p class="accordion-text">Não! Você pode começar utilizando utensílios básicos que já tem na cozinha da sua própria casa, como panelas comuns (esmaltadas ou de inox), colheres de silicone e potes de plástico. Conforme você for lucrando, poderá investir em moldes decorativos baratos.</p>
+            </div>
+          </div>
+
+          <div class="accordion-item fade-el">
+            <button class="accordion-trigger">
+              Onde vou encontrar os ingredientes para as receitas?
+              <span class="accordion-icon">+</span>
+            </button>
+            <div class="accordion-content">
+              <p class="accordion-text">No Guia de Fornecedores incluído no material, listamos os melhores sites do Brasil que vendem bases glicerinadas, essências e corantes por atacado com entrega super rápida. Além disso, muitos ingredientes simples (como mel, aveia, ervas e óleos) você encontra no mercado do seu bairro.</p>
+            </div>
+          </div>
+
+          <div class="accordion-item fade-el">
+            <button class="accordion-trigger">
+              O pagamento é seguro e tem garantia?
+              <span class="accordion-icon">+</span>
+            </button>
+            <div class="accordion-content">
+              <p class="accordion-text">Sim, totalmente seguro! O pagamento é processado por uma das maiores e mais seguras plataformas de produtos digitais do Brasil, com criptografia militar. Além disso, você tem 7 dias de garantia incondicional para testar tudo sem risco algum.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SEÇÃO 12: CTA FINAL -->
+    <section class="final-cta-section">
+      <div class="container">
+        
+        <span class="final-badge fade-el">
+          <svg class="svg-icon"><use href="#icon-fire"/></svg>
+          ÚLTIMA CHANCE
+        </span>
+        <h2 class="final-title fade-el">NÃO DEIXE ESSA OPORTUNIDADE PASSAR</h2>
+        <p class="final-subtitle fade-el">Mais de 6.200 alunas já estão mudando de vida. Chegou a sua vez!</p>
+
+        <div class="final-price-box fade-el">
+          <p class="final-price-value">R$ 27,90</p>
+          <p class="final-price-desc">plano completo com todos os bônus inclusos</p>
+        </div>
+
+        <a href="#planos" class="btn-pill-amarelo animate-pulse-btn fade-el" style="max-width:400px;">
+          QUERO AS RECEITAS AGORA
+        </a>
+
+        <footer class="footer-legal">
+          <p>© 2026 Receitas de Sabonete Artesanal Lucrativas. Todos os direitos reservados.</p>
+          <p style="margin-top: 6px; opacity: 0.6;">A comercialização deste produto digital é feita de forma segura e em total conformidade com a legislação brasileira vigente.</p>
+        </footer>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Notificação de Vendas (Prova Social) -->
+  <div id="sales-notification" class="sales-notification-toast">
+    <div class="notification-icon-wrapper">
+      <svg class="notification-icon"><use href="#icon-lightning"/></svg>
+    </div>
+    <div class="notification-content">
+      <p class="notification-name" id="notif-name">Ricardo</p>
+      <p class="notification-action" id="notif-action">acabou de comprar o <span class="highlight-product" id="notif-product">Plano Completo</span></p>
+      <p class="notification-meta" id="notif-meta">há 2 minutos • Rio de Janeiro - RJ</p>
+    </div>
+  </div>
+
+  <!-- Modal de Upsell / Desconto Especial -->
+  <div id="discount-modal" class="modal-overlay">
+    <div class="modal-content">
+      <span class="modal-close">&times;</span>
+      
+      <div class="modal-header">
+        <h2>ESPERE!</h2>
+        <h3>OFERTA ESPECIAL 🔥</h3>
+        <p>Leve o <span class="highlight-orange">Plano Completo</span> com um desconto exclusivo de última hora!</p>
+      </div>
+
+      <div class="modal-price-box">
+        <span class="price-old">R$ 19,90</span>
+        <span class="price-new">R$ 14,90</span>
+      </div>
+
+      <div class="modal-features-list">
+        <div class="modal-feature-item">
+          <span class="check-icon">✓</span>
+          <span>Tudo do Plano Completo (200 Receitas, Calculadora e Fornecedores)</span>
+        </div>
+        <div class="modal-feature-item">
+          <span class="check-icon">✓</span>
+          <span>Videoaulas + Rótulos e Etiquetas + Calendário Anual</span>
+        </div>
+        <div class="modal-feature-item">
+          <span class="check-icon">✓</span>
+          <span>Todos os 6 Bônus Exclusivos Inclusos</span>
+        </div>
+        <div class="modal-feature-item">
+          <span class="check-icon">✓</span>
+          <span>Suporte VIP e Grupo fechado de Alunos</span>
+        </div>
+        <div class="modal-feature-item">
+          <span class="check-icon">✓</span>
+          <span>Acesso Vitalício + Atualizações Gratuitas</span>
+        </div>
+      </div>
+
+      <button class="btn-modal-accept">QUERO O COMPLETO POR R$ 14,90</button>
+      
+      <a href="#" class="link-modal-decline">NÃO, QUERO CONTINUAR COM O PLANO BÁSICO</a>
+    </div>
+  </div>
+
+  <!-- --------------------------------------------------
+       COMPORTAMENTOS JAVASCRIPT
+  ----------------------------------------------------- -->
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+
+      // ==========================================
+      // 1. DATA DINÂMICA NA BARRA SUPERIOR (OFERTA VÁLIDA ATÉ...)
+      // ==========================================
+      const updateValidityDate = () => {
+        const dateBar = document.getElementById("dynamic-date-bar");
+        if (!dateBar) return;
+        
+        const now = new Date();
+        const day = String(now.getDate()).padStart(2, '0');
+        const month = String(now.getMonth() + 1).padStart(2, '0');
+        const year = now.getFullYear();
+        
+        dateBar.textContent = `OFERTA VÁLIDA ATÉ ${day}/${month}/${year}`;
+      };
+      
+      updateValidityDate();
+
+
+      // ==========================================
+      // 2. COUNTDOWN TIMER DE URGÊNCIA (PERSISTENTE NO LOCALSTORAGE)
+      // ==========================================
+      const initCountdown = () => {
+        const STORAGE_KEY = "sabonete_timer_target";
+        let targetTime = localStorage.getItem(STORAGE_KEY);
+        const currentTime = new Date().getTime();
+
+        if (!targetTime || parseInt(targetTime) < currentTime) {
+          const hours24 = 24 * 60 * 60 * 1000;
+          targetTime = currentTime + hours24;
+          localStorage.setItem(STORAGE_KEY, targetTime.toString());
+        } else {
+          targetTime = parseInt(targetTime);
+        }
+
+        const updateTimer = () => {
+          const now = new Date().getTime();
+          const diff = targetTime - now;
+
+          if (diff <= 0) {
+            clearInterval(timerInterval);
+            const hourEl = document.getElementById("timer-hour");
+            const minEl = document.getElementById("timer-min");
+            const secEl = document.getElementById("timer-sec");
+            if (hourEl) hourEl.textContent = "00";
+            if (minEl) minEl.textContent = "00";
+            if (secEl) secEl.textContent = "00";
+            
+            document.querySelectorAll(".btn-pill-amarelo, .btn-plan-buy, .btn-guarantee-buy, .btn-acesso-imediato").forEach(btn => {
+              btn.style.pointerEvents = "none";
+              btn.style.opacity = "0.5";
+              btn.textContent = "OFERTA ENCERRADA";
+            });
+            return;
+          }
+
+          const hours = Math.floor(diff / (1000 * 60 * 60));
+          const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+          const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+
+          const hoursStr = String(hours).padStart(2, '0');
+          const minutesStr = String(minutes).padStart(2, '0');
+          const secondsStr = String(seconds).padStart(2, '0');
+
+          const hourEl = document.getElementById("timer-hour");
+          const minEl = document.getElementById("timer-min");
+          const secEl = document.getElementById("timer-sec");
+          if (hourEl) hourEl.textContent = hoursStr;
+          if (minEl) minEl.textContent = minutesStr;
+          if (secEl) secEl.textContent = secondsStr;
+        };
+
+        updateTimer();
+        const timerInterval = setInterval(updateTimer, 1000);
+      };
+
+      initCountdown();
+
+
+      // ==========================================
+      // 3. FADE-IN EM ELEMENTOS AO ENTRAR NA TELA (INTERSECTION OBSERVER)
+      // ==========================================
+      const initScrollFade = () => {
+        const fadeElements = document.querySelectorAll(".fade-el");
+        
+        const observerOptions = {
+          root: null,
+          threshold: 0.1,
+          rootMargin: "0px 0px -40px 0px"
+        };
+
+        const observer = new IntersectionObserver((entries, obs) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("show");
+              obs.unobserve(entry.target);
+            }
+          });
+        }, observerOptions);
+
+        fadeElements.forEach(el => observer.observe(el));
+      };
+
+      initScrollFade();
+
+
+      // ==========================================
+      // 4. CONTADORES NUMÉRICOS ANIMADOS
+      // ==========================================
+      const initCounters = () => {
+        const proofSection = document.querySelector(".proof-numbers-section");
+        if (!proofSection) return;
+
+        let animated = false;
+
+        const animateValue = (element, start, end, duration, formatFn) => {
+          let startTime = null;
+
+          const easeOutQuad = (t) => t * (2 - t);
+
+          const step = (timestamp) => {
+            if (!startTime) startTime = timestamp;
+            const progress = Math.min((timestamp - startTime) / duration, 1);
+            const easedProgress = easeOutQuad(progress);
+            const currentValue = start + easedProgress * (end - start);
+            
+            element.textContent = formatFn(currentValue);
+
+            if (progress < 1) {
+              window.requestAnimationFrame(step);
+            } else {
+              element.textContent = formatFn(end);
+            }
+          };
+
+          window.requestAnimationFrame(step);
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting && !animated) {
+              animated = true;
+
+              // 1. Alunas
+              const count1 = document.querySelector('[data-target="6200"]');
+              if (count1) {
+                animateValue(count1, 0, 6200, 1500, (val) => `+${Math.floor(val).toLocaleString('pt-BR')}`);
+              }
+
+              // 2. Garantia
+              const count2 = document.querySelector('[data-target="7"]');
+              if (count2) {
+                animateValue(count2, 0, 7, 1500, (val) => `${Math.floor(val)} Dias`);
+              }
+
+              // 3. Custo R$3,50
+              const count3 = document.querySelector('[data-target="3.5"]');
+              if (count3) {
+                animateValue(count3, 0, 3.5, 1500, (val) => {
+                  return `R$ ${val.toFixed(2).replace('.', ',')}`;
+                });
+              }
+            }
+          });
+        }, { threshold: 0.1 });
+
+        observer.observe(proofSection);
+      };
+
+      initCounters();
+
+
+      // ==========================================
+      // 5. ACCORDION FAQ
+      // ==========================================
+      const initAccordion = () => {
+        const accordionTriggers = document.querySelectorAll(".accordion-trigger");
+
+        accordionTriggers.forEach(trigger => {
+          trigger.addEventListener("click", function() {
+            const item = this.parentElement;
+            const content = this.nextElementSibling;
+            const isActive = item.classList.contains("active");
+
+            document.querySelectorAll(".accordion-item").forEach(otherItem => {
+              if (otherItem !== item) {
+                otherItem.classList.remove("active");
+                otherItem.querySelector(".accordion-content").style.maxHeight = null;
+              }
+            });
+
+            if (isActive) {
+              item.classList.remove("active");
+              content.style.maxHeight = null;
+            } else {
+              item.classList.add("active");
+              content.style.maxHeight = content.scrollHeight + "px";
+            }
+          });
+        });
+      };
+
+      initAccordion();
+
+
+      // ==========================================
+      // 6. SCROLL SUAVE PARA OS BOTÕES CTA
+      // ==========================================
+      const initSmoothScroll = () => {
+        const ctaLinks = document.querySelectorAll('a[href^="#planos"], .btn-acesso-imediato, .btn-guarantee-buy');
+
+        ctaLinks.forEach(link => {
+          link.addEventListener("click", function(e) {
+            e.preventDefault();
+            const targetSection = document.getElementById("planos");
+            if (targetSection) {
+              targetSection.scrollIntoView({ behavior: "smooth" });
+            }
+          });
+        });
+        
+        // Modal de desconto para o Plano Básico
+        const modal = document.getElementById("discount-modal");
+        const closeBtn = document.querySelector(".modal-close");
+        const acceptBtn = document.querySelector(".btn-modal-accept");
+        const declineLink = document.querySelector(".link-modal-decline");
+
+        // Helper para abrir/fechar modal
+        const openModal = () => {
+          if (modal) {
+            modal.classList.add("active");
+            document.body.classList.add("modal-open");
+          }
+        };
+
+        const closeModal = () => {
+          if (modal) {
+            modal.classList.remove("active");
+            document.body.classList.remove("modal-open");
+          }
+        };
+
+        // Botões tipo tag de compra nos planos
+        document.querySelectorAll(".btn-plan-buy").forEach(btn => {
+          btn.addEventListener("click", (e) => {
+            if (btn.classList.contains("btn-buy-basic")) {
+              e.preventDefault();
+              openModal();
+            } else {
+              console.log("Direcionando ao checkout do Plano Completo por R$ 19,90...");
+            }
+          });
+        });
+
+        // Eventos do modal
+        if (closeBtn) {
+          closeBtn.addEventListener("click", closeModal);
+        }
+
+        if (declineLink) {
+          declineLink.addEventListener("click", (e) => {
+            e.preventDefault();
+            closeModal();
+            console.log("Direcionando ao checkout do Plano Básico...");
+          });
+        }
+
+        if (acceptBtn) {
+          acceptBtn.addEventListener("click", () => {
+            closeModal();
+            console.log("Direcionando ao checkout do Plano Completo com Desconto (R$ 14,90)...");
+          });
+        }
+
+        if (modal) {
+          modal.addEventListener("click", (e) => {
+            if (e.target === modal) {
+              closeModal();
+            }
+          });
+        }
+      };
+
+      // ==========================================
+      // 7. NOTIFICAÇÃO DE VENDAS DINÂMICA
+      // ==========================================
+      const initSalesNotification = () => {
+        const toast = document.getElementById("sales-notification");
+        const nameEl = document.getElementById("notif-name");
+        const productEl = document.getElementById("notif-product");
+        const metaEl = document.getElementById("notif-meta");
+
+        if (!toast) return;
+
+        const names = [
+          "Amanda Silva", "Beatriz Costa", "Camila Souza", "Clara Oliveira", "Eduarda Santos",
+          "Fernanda Lima", "Gabriela Rocha", "Isabela Gomes", "Juliana Martins", "Larissa Ferreira",
+          "Letícia Cardoso", "Mariana Alves", "Natália Ribeiro", "Patrícia Teixeira", "Renata Carvalho",
+          "Sofia Mendes", "Tânia Pinheiro", "Vanessa Cunha", "Carla Nascimento", "Aline Rodrigues"
+        ];
+
+        const products = [
+          "Plano Completo", "Plano Básico", "Plano Completo", "Plano Completo"
+        ];
+
+        const cities = [
+          "São Paulo - SP", "Rio de Janeiro - RJ", "Belo Horizonte - MG", "Porto Alegre - RS",
+          "Curitiba - PR", "Salvador - BA", "Fortaleza - CE", "Recife - PE", "Goiânia - GO",
+          "Brasília - DF", "Manaus - AM", "Belém - PA", "Campinas - SP", "Florianópolis - SC",
+          "Vitória - ES", "Natal - RN", "Maceió - AL", "João Pessoa - PB", "Aracaju - SE"
+        ];
+
+        const times = [
+          "há 1 minuto", "há 2 minutos", "há 3 minutos", "há 30 segundos", "há 45 segundos",
+          "há 15 segundos", "há 4 minutos", "há 5 minutos"
+        ];
+
+        const showNotification = () => {
+          const name = names[Math.floor(Math.random() * names.length)];
+          const product = products[Math.floor(Math.random() * products.length)];
+          const city = cities[Math.floor(Math.random() * cities.length)];
+          const time = times[Math.floor(Math.random() * times.length)];
+
+          nameEl.textContent = name.split(" ")[0]; // Apenas o primeiro nome
+          productEl.textContent = product;
+          metaEl.textContent = `${time} • ${city}`;
+
+          toast.classList.add("active");
+
+          setTimeout(() => {
+            toast.classList.remove("active");
+          }, 5000); // Mostra por 5 segundos
+        };
+
+        // Inicia após 4 segundos e repete a cada 12 segundos
+        setTimeout(() => {
+          showNotification();
+          setInterval(showNotification, 12000);
+        }, 4000);
+      };
+
+      initSalesNotification();
+
+      initSmoothScroll();
+
+    });
+  </script>
+</body>
+</html>
